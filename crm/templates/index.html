@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Equipment Sales CRM</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <span class="logo-icon">&#9889;</span>
+            <h1>EquipSales CRM</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-link active" data-view="dashboard">Dashboard</a></li>
+            <li><a href="#" class="nav-link" data-view="contacts">Contacts</a></li>
+            <li><a href="#" class="nav-link" data-view="deals">Deal Pipeline</a></li>
+            <li><a href="#" class="nav-link" data-view="activities">Activities</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <!-- DASHBOARD VIEW -->
+        <section id="view-dashboard" class="view active">
+            <h2>Dashboard</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <span class="metric-label">Total Contacts</span>
+                    <span class="metric-value" id="m-total-contacts">0</span>
+                </div>
+                <div class="metric-card revenue">
+                    <span class="metric-label">Revenue (Closed Won)</span>
+                    <span class="metric-value" id="m-revenue">$0</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Open Pipeline</span>
+                    <span class="metric-value" id="m-pipeline">$0</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Weighted Pipeline</span>
+                    <span class="metric-value" id="m-weighted">$0</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-label">Win Rate</span>
+                    <span class="metric-value" id="m-winrate">0%</span>
+                </div>
+                <div class="metric-card warning">
+                    <span class="metric-label">Pending Tasks</span>
+                    <span class="metric-value" id="m-pending">0</span>
+                </div>
+            </div>
+
+            <div class="dashboard-sections">
+                <div class="section">
+                    <h3>Pipeline by Stage</h3>
+                    <div id="pipeline-bars" class="pipeline-bars"></div>
+                </div>
+                <div class="section">
+                    <h3>Recent Activity</h3>
+                    <ul id="recent-activities" class="activity-list"></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTS VIEW -->
+        <section id="view-contacts" class="view">
+            <div class="view-header">
+                <h2>Contacts</h2>
+                <div class="view-actions">
+                    <input type="text" id="contact-search" placeholder="Search contacts..." class="search-input">
+                    <select id="contact-status-filter" class="filter-select">
+                        <option value="">All Statuses</option>
+                        <option value="lead">Lead</option>
+                        <option value="prospect">Prospect</option>
+                        <option value="customer">Customer</option>
+                        <option value="churned">Churned</option>
+                        <option value="inactive">Inactive</option>
+                    </select>
+                    <button class="btn btn-primary" onclick="showContactForm()">+ New Contact</button>
+                </div>
+            </div>
+            <table class="data-table" id="contacts-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                        <th>Tags</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="contacts-body"></tbody>
+            </table>
+        </section>
+
+        <!-- DEALS VIEW -->
+        <section id="view-deals" class="view">
+            <div class="view-header">
+                <h2>Deal Pipeline</h2>
+                <button class="btn btn-primary" onclick="showDealForm()">+ New Deal</button>
+            </div>
+            <div class="pipeline-board" id="pipeline-board">
+                <div class="pipeline-column" data-stage="lead">
+                    <h3>Lead</h3>
+                    <div class="deal-cards" id="deals-lead"></div>
+                </div>
+                <div class="pipeline-column" data-stage="qualified">
+                    <h3>Qualified</h3>
+                    <div class="deal-cards" id="deals-qualified"></div>
+                </div>
+                <div class="pipeline-column" data-stage="proposal">
+                    <h3>Proposal</h3>
+                    <div class="deal-cards" id="deals-proposal"></div>
+                </div>
+                <div class="pipeline-column" data-stage="negotiation">
+                    <h3>Negotiation</h3>
+                    <div class="deal-cards" id="deals-negotiation"></div>
+                </div>
+                <div class="pipeline-column won" data-stage="closed_won">
+                    <h3>Closed Won</h3>
+                    <div class="deal-cards" id="deals-closed_won"></div>
+                </div>
+                <div class="pipeline-column lost" data-stage="closed_lost">
+                    <h3>Closed Lost</h3>
+                    <div class="deal-cards" id="deals-closed_lost"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACTIVITIES VIEW -->
+        <section id="view-activities" class="view">
+            <div class="view-header">
+                <h2>Activities</h2>
+                <div class="view-actions">
+                    <select id="activity-type-filter" class="filter-select">
+                        <option value="">All Types</option>
+                        <option value="call">Calls</option>
+                        <option value="email">Emails</option>
+                        <option value="meeting">Meetings</option>
+                        <option value="note">Notes</option>
+                        <option value="task">Tasks</option>
+                        <option value="follow_up">Follow-ups</option>
+                    </select>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="pending-only"> Pending Only
+                    </label>
+                    <button class="btn btn-primary" onclick="showActivityForm()">+ Log Activity</button>
+                </div>
+            </div>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Subject</th>
+                        <th>Contact</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="activities-body"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3 id="modal-title">Form</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
