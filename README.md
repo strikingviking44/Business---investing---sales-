@@ -1,82 +1,61 @@
-# Business - Investing - Sales
+# Weekly Market Dashboard
 
-This repo hosts two independent projects:
+An automated, self-updating market dashboard focused on **industrial, logistics,
+retail, and macro**. Every Monday at 7:00 AM Central, a GitHub Action fetches
+fresh data, builds a single dark-theme HTML page, publishes it to **GitHub
+Pages**, and emails a "What Changed This Week" summary.
 
-1. **CRM** (below) — a lightweight Flask CRM for contacts, deals, and activities.
-2. **[Weekly Market Dashboard](market_dashboard/README.md)** — an automated,
-   GitHub Actions–powered market dashboard (industrial / logistics / retail /
-   macro) that publishes to GitHub Pages and emails a weekly summary every
-   Monday at 7 AM Central. See [`market_dashboard/README.md`](market_dashboard/README.md)
-   for the full step-by-step setup guide.
+➡️ **Full documentation and step-by-step setup guide:
+[`market_dashboard/README.md`](market_dashboard/README.md)**
 
----
+## What it does
 
-# Business - Investing - Sales CRM
+| Section | Contents |
+|---------|----------|
+| **⚡ What Changed** | Any metric >1σ vs its 12-week average, biggest stock movers, 10Y move >10 bps |
+| **Macro Snapshot** | SPY, TLT, US Dollar Index — price, weekly %, YTD %, sparkline |
+| **Manufacturing & Macro** | FRED series (10Y, Industrial Production, New Orders, Truck Tonnage, Retail Sales, Empire & Philly Fed) with release dates |
+| **Manufacturing PMI** | Scraped ISM headline; falls back to Empire/Philly Fed proxies if the scrape fails |
+| **Freight** | Cass Freight Index + AAR weekly rail traffic headlines |
+| **Watchlist** | 12 tickers grouped by theme — price, weekly %, YTD %, 52-week range bar, 12-week sparkline |
+| **News** | Top 3 Google News headlines per ticker + 5 macro headlines, deduped |
 
-A lightweight, full-featured CRM (Customer Relationship Management) system built for small businesses, sales teams, and solo entrepreneurs.
-
-## Features
-
-- **Contact Management** - Store and manage leads, prospects, and customers
-- **Deal Pipeline** - Visual sales pipeline with drag-and-drop stages
-- **Activity Tracking** - Log calls, emails, meetings, and follow-ups
-- **Dashboard** - Real-time metrics: revenue, conversion rates, deal velocity
-- **Search & Filter** - Find contacts and deals instantly
-- **CSV Import/Export** - Bulk import contacts, export reports
-- **Tags & Segmentation** - Organize contacts with custom tags
-- **Notes & History** - Full interaction history per contact
-
-## Quick Start
+## Quick start
 
 ```bash
-# Install dependencies
 pip install -r requirements.txt
 
-# Run the CRM
-python crm/app.py
+# Offline render test (no network, no keys) — writes public/index.html:
+python -m market_dashboard.selftest
 
-# Open browser to http://localhost:5000
+# Full live run (needs FRED_API_KEY; Gmail vars optional):
+export FRED_API_KEY=your_key
+python -m market_dashboard.main
 ```
 
-## Tech Stack
+Runs automatically via GitHub Actions every Monday, and can be triggered manually
+from the **Actions** tab (`workflow_dispatch`). See
+[`market_dashboard/README.md`](market_dashboard/README.md) for how to add the
+required secrets (`FRED_API_KEY`, `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`), enable
+GitHub Pages, and do a manual test run.
 
-- **Backend:** Python / Flask
-- **Database:** SQLite (zero config, portable)
-- **Frontend:** HTML, CSS, JavaScript (no frameworks needed)
-- **API:** RESTful JSON endpoints
-
-## Project Structure
+## Project structure
 
 ```
-crm/
-  app.py            # Main application & API routes
-  models.py         # Database models & schema
-  seed.py           # Sample data seeder
-  static/
-    css/style.css   # Dashboard styles
-    js/app.js       # Frontend logic
-  templates/
-    index.html      # Main dashboard
-tests/
-  test_api.py       # API tests
-requirements.txt    # Python dependencies
+market_dashboard/
+  config.py           # tickers, FRED series, thresholds — tweak here
+  utils.py            # logging, retry, HTTP session, JSON cache
+  fetch_stocks.py     # yfinance equity metrics (3-attempt retry)
+  fetch_fred.py       # FRED macro series
+  fetch_news.py       # Google News RSS + dedupe
+  scrape_pmi.py       # ISM PMI / Cass / AAR best-effort scrapers
+  build_dashboard.py  # HTML render + "What Changed" analysis
+  notify.py           # Gmail SMTP email
+  main.py             # orchestrator
+  selftest.py         # offline render test with synthetic data
+cache/last_values.json  # last-known-good values, committed by the Action
+tests/test_dashboard.py
+.github/workflows/weekly-dashboard.yml
 ```
 
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | /api/contacts | List all contacts |
-| POST | /api/contacts | Create a contact |
-| GET | /api/contacts/:id | Get contact details |
-| PUT | /api/contacts/:id | Update a contact |
-| DELETE | /api/contacts/:id | Delete a contact |
-| GET | /api/deals | List all deals |
-| POST | /api/deals | Create a deal |
-| PUT | /api/deals/:id | Update a deal |
-| DELETE | /api/deals/:id | Delete a deal |
-| GET | /api/activities | List activities |
-| POST | /api/activities | Log an activity |
-| GET | /api/dashboard | Dashboard metrics |
-| POST | /api/contacts/import | CSV import |
-| GET | /api/contacts/export | CSV export |
+_Not investment advice._
