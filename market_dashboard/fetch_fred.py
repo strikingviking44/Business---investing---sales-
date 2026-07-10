@@ -15,7 +15,16 @@ import datetime as dt
 from typing import Any
 
 from . import config
-from .utils import http_session, log, record_failure, retry
+from .utils import (
+    explain_status,
+    gh_error,
+    http_session,
+    http_status_of,
+    log,
+    mask,
+    record_failure,
+    retry,
+)
 
 
 def _to_float(x: str) -> float | None:
@@ -39,6 +48,18 @@ def _fetch_series(session, series_id: str, start: str) -> list[dict]:
 
     def _do():
         r = session.get(url, params=params, timeout=config.HTTP_TIMEOUT)
+        # Log status on any non-2xx BEFORE raising, so the run log shows
+        # whether this is a bad key (400/403), rate limit (429), etc. FRED
+        # returns a helpful error_message body on 400 — surface it.
+        if r.status_code >= 400:
+            hint = explain_status(r.status_code)
+            detail = ""
+            try:
+                body = r.json()
+                detail = body.get("error_message", "")
+            except Exception:  # noqa: BLE001
+                detail = (r.text or "")[:200]
+            log.error("FRED[%s] HTTP %s — %s %s", series_id, r.status_code, hint, detail)
         r.raise_for_status()
         return r.json()
 
@@ -64,13 +85,19 @@ def _direction(latest: float, prior: float | None) -> str:
 
 def fetch_fred() -> dict[str, dict]:
     """Return {series_id: {...}} for every configured FRED series."""
-    if not config.FRED_API_KEY:
+    if not config.FRED_API_KEY.strip():
+        gh_error(
+            "fetch_fred: FRED_API_KEY not set — every FRED/macro section will be "
+            "empty. Add the FRED_API_KEY repository secret and re-run."
+        )
         record_failure("fetch_fred", "FRED_API_KEY not set")
         return {}
 
+    log.info("fetch_fred: FRED_API_KEY %s", mask(config.FRED_API_KEY))
     session = http_session()
     results: dict[str, dict] = {}
     today = dt.date.today()
+    status_hints: set[str] = set()
 
     for spec in config.FRED_SERIES:
         sid = spec["id"]
@@ -119,7 +146,26 @@ def fetch_fred() -> dict[str, dict]:
             results[sid] = entry
             log.info("fred  %-20s %s (%s)", sid, latest["value"], latest["date"])
         except Exception as e:  # noqa: BLE001
-            record_failure(f"fetch_fred[{sid}]", e)
+            code = http_status_of(e)
+            hint = explain_status(code)
+            status_hints.add(hint)
+            record_failure(f"fetch_fred[{sid}]", f"{e} ({hint})")
+
+    # If nothing came back, say why loudly and point at the likely cause.
+    if not results:
+        if any("key" in h for h in status_hints):
+            gh_error(
+                "fetch_fred: all FRED series failed with an auth error — the "
+                "FRED_API_KEY value is set but appears INVALID. Regenerate it at "
+                "https://fredaccount.stlouisfed.org/apikeys and update the secret."
+            )
+        elif any("429" in h for h in status_hints):
+            gh_error("fetch_fred: all FRED series were rate-limited (429). Re-run shortly.")
+        else:
+            gh_error(
+                "fetch_fred: every FRED series failed. Status hints: "
+                + (", ".join(sorted(status_hints)) or "network/timeout")
+            )
 
     return results
 

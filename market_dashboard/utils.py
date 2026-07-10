@@ -38,6 +38,69 @@ def record_failure(where: str, err: Exception | str) -> None:
     FAILURES.append(msg)
 
 
+def gh_error(msg: str) -> None:
+    """Emit a GitHub Actions error annotation (shows red in the run log)."""
+    log.error(msg)
+    print(f"::error::{msg}", flush=True)
+
+
+def gh_warning(msg: str) -> None:
+    """Emit a GitHub Actions warning annotation (shows yellow in the run log)."""
+    log.warning(msg)
+    print(f"::warning::{msg}", flush=True)
+
+
+def mask(secret: str) -> str:
+    """Describe a secret for logs without revealing it: length + last 2 chars."""
+    if not secret:
+        return "<empty>"
+    return f"set (len={len(secret)}, ends '…{secret[-2:]}')"
+
+
+def http_status_of(err: Exception) -> int | None:
+    """Best-effort extraction of an HTTP status code from a requests error."""
+    resp = getattr(err, "response", None)
+    if resp is not None:
+        return getattr(resp, "status_code", None)
+    return None
+
+
+def explain_status(code: int | None) -> str:
+    """Human hint for common HTTP status codes we care about."""
+    return {
+        400: "400 Bad Request — usually an invalid/malformed API key",
+        401: "401 Unauthorized — bad API key",
+        403: "403 Forbidden — blocked or bad key",
+        404: "404 Not Found — bad series id or URL",
+        429: "429 Too Many Requests — rate limited, back off",
+        500: "500 Server Error — upstream problem, retry later",
+        503: "503 Service Unavailable — upstream down, retry later",
+    }.get(code, f"HTTP {code}" if code else "no HTTP status (network/DNS/timeout)")
+
+
+def env_diagnostics() -> None:
+    """Log which expected environment variables are present (masked).
+
+    Runs once at startup so the Action log makes it obvious when a secret
+    (FRED_API_KEY / Gmail creds) never reached the process.
+    """
+    import os
+
+    log.info("Environment diagnostics:")
+    log.info("  FRED_API_KEY:       %s", mask(os.environ.get("FRED_API_KEY", "")))
+    log.info("  GMAIL_ADDRESS:      %s",
+             os.environ.get("GMAIL_ADDRESS", "") or "<empty>")
+    log.info("  GMAIL_APP_PASSWORD: %s", mask(os.environ.get("GMAIL_APP_PASSWORD", "")))
+    log.info("  GITHUB_REPOSITORY:  %s", os.environ.get("GITHUB_REPOSITORY", "") or "<empty>")
+    if not os.environ.get("FRED_API_KEY", "").strip():
+        gh_error(
+            "FRED_API_KEY is not set in the environment. The macro/FRED sections "
+            "will be empty. Add it under repo Settings → Secrets and variables → "
+            "Actions → New repository secret (name must be exactly FRED_API_KEY), "
+            "then re-run the workflow."
+        )
+
+
 # --------------------------------------------------------------------------
 # HTTP session with a browser-ish UA (some public pages block default UAs).
 # --------------------------------------------------------------------------

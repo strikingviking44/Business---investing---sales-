@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from market_dashboard import build_dashboard, config
 from market_dashboard.fetch_news import _dedupe, _similar, _tokens
 from market_dashboard.selftest import _mock_data
+from market_dashboard.utils import explain_status, http_status_of, mask
 
 
 def test_config_ticker_coverage():
@@ -77,6 +78,31 @@ def test_news_dedupe_collapses_similar_headlines():
     kept = _dedupe(items)
     # The two Vertiv headlines collapse to one; Union Pacific stays.
     assert len(kept) == 2
+
+
+def test_status_helpers():
+    assert "key" in explain_status(400).lower()
+    assert "rate" in explain_status(429).lower()
+    assert "network" in explain_status(None).lower()
+    assert mask("") == "<empty>"
+    assert "len=8" in mask("12345678")
+
+    class _Resp:
+        status_code = 429
+
+    class _Err(Exception):
+        response = _Resp()
+
+    assert http_status_of(_Err()) == 429
+    assert http_status_of(Exception("plain")) is None
+
+
+def test_fred_no_key_returns_empty(monkeypatch):
+    # With no API key, fetch_fred must bail cleanly (not raise) and return {}.
+    monkeypatch.setattr(config, "FRED_API_KEY", "")
+    from market_dashboard import fetch_fred as ff
+    monkeypatch.setattr(ff.config, "FRED_API_KEY", "")
+    assert ff.fetch_fred() == {}
 
 
 def test_similarity_heuristic():

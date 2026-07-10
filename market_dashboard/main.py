@@ -25,7 +25,15 @@ from .fetch_news import fetch_news
 from .fetch_stocks import fetch_stocks
 from .notify import send_email, summary_to_html
 from .scrape_pmi import scrape_all
-from .utils import FAILURES, load_cache, log, merge_section, record_failure, save_cache
+from .utils import (
+    FAILURES,
+    env_diagnostics,
+    load_cache,
+    log,
+    merge_section,
+    record_failure,
+    save_cache,
+)
 
 
 def _dashboard_url() -> str:
@@ -87,6 +95,9 @@ def run() -> int:
     generated_at = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     dashboard_url = _dashboard_url()
     log.info("=== Weekly Market Dashboard: %s ===", generated_at)
+
+    # Log which secrets/env vars actually arrived (masked) before any fetch.
+    env_diagnostics()
 
     cache = load_cache()
     cached_data = cache.get("data", {}) if cache else {}

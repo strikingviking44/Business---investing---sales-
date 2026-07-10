@@ -18,7 +18,7 @@ import datetime as dt
 from typing import Any
 
 from . import config
-from .utils import log, record_failure, retry
+from .utils import gh_error, gh_warning, log, record_failure, retry
 
 
 def _safe_float(x: Any) -> float | None:
@@ -150,6 +150,16 @@ def fetch_stocks() -> dict[str, dict]:
                 record_failure(f"fetch_stocks[{ticker}]", "no usable price data")
         except Exception as e:  # noqa: BLE001
             record_failure(f"fetch_stocks[{ticker}]", e)
+
+    got, total = len(results), len(config.ALL_TICKERS)
+    log.info("fetch_stocks: %d/%d tickers returned data", got, total)
+    if got == 0:
+        gh_error(
+            "fetch_stocks: 0 tickers returned data — yfinance/Yahoo is blocking or "
+            "down (no API key involved). Usually transient; re-run in a bit."
+        )
+    elif got < total:
+        gh_warning(f"fetch_stocks: only {got}/{total} tickers returned data (rest stale/missing).")
 
     return results
 

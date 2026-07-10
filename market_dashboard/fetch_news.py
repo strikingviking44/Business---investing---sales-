@@ -16,7 +16,7 @@ import urllib.parse
 from xml.etree import ElementTree as ET
 
 from . import config
-from .utils import http_session, log, record_failure, retry
+from .utils import explain_status, gh_warning, http_session, log, record_failure, retry
 
 _RSS = "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
 _WORD_RE = re.compile(r"[a-z0-9]+")
@@ -78,6 +78,8 @@ def _query(session, query: str, limit: int) -> list[dict]:
 
     def _do():
         r = session.get(url, timeout=config.HTTP_TIMEOUT)
+        if r.status_code >= 400:
+            log.error("news[%s] HTTP %s — %s", query, r.status_code, explain_status(r.status_code))
         r.raise_for_status()
         return r.text
 
@@ -135,6 +137,12 @@ def fetch_news() -> dict:
     macro_pool = _dedupe(macro_pool)
     result["macro"] = macro_pool[: config.MACRO_NEWS_TOTAL]
     log.info("news  macro    %d headlines", len(result["macro"]))
+
+    tickers_with_news = len(result["tickers"])
+    log.info("fetch_news: %d tickers with headlines, %d macro headlines",
+             tickers_with_news, len(result["macro"]))
+    if tickers_with_news == 0 and not result["macro"]:
+        gh_warning("fetch_news: no headlines at all — Google News RSS may be blocking the runner.")
     return result
 
 
