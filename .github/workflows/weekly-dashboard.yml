@@ -51,25 +51,53 @@ jobs:
         run: |
           python -m market_dashboard.main
 
-      - name: Commit refreshed cache
-        # Persist last-known-good values so a future failed fetch can fall back.
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/last_values.json
-          if git diff --staged --quiet; then
-            echo "No cache changes to commit."
-          else
-            git commit -m "chore: update market data cache [skip ci]"
-            for i in 1 2 3 4; do
-              git push && break || { echo "push failed, retry $i"; sleep $((2**i)); git pull --rebase; }
-            done
-          fi
-
       - name: Upload Pages artifact
+        # Capture the generated site before any git operations touch the tree.
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+
+      - name: Commit refreshed cache
+        # Persist last-known-good values so a future failed fetch can fall back.
+        #
+        # Conflict-proof by construction: the file we just generated is always
+        # the authoritative latest version, so we never merge or rebase (a
+        # rebase would conflict on this very file). Instead we copy our file
+        # aside, hard-reset onto the latest remote tip, lay our file back down,
+        # and commit on top. This also fixes the re-run case, where an old run
+        # is checked out at a stale SHA that is behind the remote branch.
+        #
+        # The retry loop only re-syncs if another run pushes in between; with
+        # the workflow's concurrency group that is essentially never hit, but
+        # the loop makes a lost race self-healing rather than fatal.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="${GITHUB_REF_NAME}"
+          cp cache/last_values.json "${RUNNER_TEMP}/last_values.json"
+          pushed=0
+          for i in 1 2 3 4 5; do
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+            cp "${RUNNER_TEMP}/last_values.json" cache/last_values.json
+            git add cache/last_values.json
+            if git diff --staged --quiet; then
+              echo "Cache unchanged versus remote — nothing to commit."
+              pushed=1
+              break
+            fi
+            git commit -m "chore: update market data cache [skip ci]"
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Cache pushed to $BRANCH."
+              pushed=1
+              break
+            fi
+            echo "Push rejected (remote advanced); re-syncing (attempt $i)…"
+            sleep $((2 ** i))
+          done
+          if [ "$pushed" -ne 1 ]; then
+            echo "::warning::Could not push refreshed cache after retries; next run will regenerate it."
+          fi
 
   deploy:
     needs: build
