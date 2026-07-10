@@ -1,3 +1,16 @@
+# Business - Investing - Sales
+
+This repo hosts two independent projects:
+
+1. **CRM** (below) — a lightweight Flask CRM for contacts, deals, and activities.
+2. **[Weekly Market Dashboard](market_dashboard/README.md)** — an automated,
+   GitHub Actions–powered market dashboard (industrial / logistics / retail /
+   macro) that publishes to GitHub Pages and emails a weekly summary every
+   Monday at 7 AM Central. See [`market_dashboard/README.md`](market_dashboard/README.md)
+   for the full step-by-step setup guide.
+
+---
+
 # Business - Investing - Sales CRM
 
 A lightweight, full-featured CRM (Customer Relationship Management) system built for small businesses, sales teams, and solo entrepreneurs.

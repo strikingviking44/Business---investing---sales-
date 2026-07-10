@@ -1,0 +1,83 @@
+name: Weekly Market Dashboard
+
+# Runs every Monday 12:00 UTC = 7:00 AM CDT (US Central, daylight time).
+# NOTE ON DST: 12:00 UTC is 7 AM Central only while Central is on daylight
+# time (CDT, mid-Mar → early-Nov). When Central switches to standard time
+# (CST) in November, 12:00 UTC becomes 6 AM local — change the cron below to
+# "0 13 * * 1" to keep it at 7 AM. (See README.)
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # Monday 12:00 UTC
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+# Permissions needed to (a) commit the refreshed cache and (b) deploy Pages.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Only one dashboard run at a time; a new run supersedes an in-flight one.
+concurrency:
+  group: "weekly-dashboard"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      built: ${{ steps.generate.outcome }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r market_dashboard/requirements.txt
+
+      - name: Generate dashboard
+        id: generate
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python -m market_dashboard.main
+
+      - name: Commit refreshed cache
+        # Persist last-known-good values so a future failed fetch can fall back.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cache/last_values.json
+          if git diff --staged --quiet; then
+            echo "No cache changes to commit."
+          else
+            git commit -m "chore: update market data cache [skip ci]"
+            for i in 1 2 3 4; do
+              git push && break || { echo "push failed, retry $i"; sleep $((2**i)); git pull --rebase; }
+            done
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -9,3 +9,6 @@ build/
 .env
 .venv/
 venv/
+
+# Weekly market dashboard — generated HTML (rebuilt each run, deployed as a Pages artifact)
+public/
