@@ -3,367 +3,337 @@
     "news": {
       "macro": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcjVHcjZWTGVra3FoZ29XVXdDS05fZlh6S3ZwZHdzb2Z1bHo1Tm12NUNBZWZxN21sTG5hYkdfVVA5VmlBMm5xOERKNXJYZDJURkI2Yk5Lb1JNZFFyNEJVZUdKSjhtdFZtbm5MdHJfN3cwN1FTUzRlUkJwUWxnWjlqLVVpdHZrQkRnaUx0Y1oyZlQ1VzY0LUhmRlI5d2RKbU9lQWVZUC0xTG81QjljYzRwdDRQRndsY3FXZWdR?oc=5",
-          "pub_raw": "Mon, 31 Aug 2026 04:29:00 GMT",
-          "published": "2026-08-31T04:29:00",
-          "source": "reuters.com",
-          "title": "Barclays sees two more Fed rate hikes this year after Warsh speech - reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYTJSa3ZaZFdjOVppNUhHcUgwZUkzNzNkQ2dQbkxfZTV2czZOREZKemRxUDhtSlgyLVQ1eEQyRlVxRWFZNXVQSVdFUTVfc0FqMzFBSXE4Qkl1VWtzdmdQWllkSkl5QjJqZXpSOEVYWUpEU3d1TFNQeVNqX07SAYIBQVVfeXFMTi1HQkxWWlgzN1hYVGt2elQwUUVzcWJIai1VclJVUkNwVDI0ME9ZRjBlSzBtT0xoMTFVMWJfUkdWT0VPZmdrc0RRLXVDd0hkeFBpMEhMNzZhSTZ2SUx1QkQ2RW5UTVk2a3VPVjgwWWdoX1Q3b0I5THlCMHdJWHJGMWFidw?oc=5",
+          "pub_raw": "Sat, 05 Sep 2026 18:10:58 GMT",
+          "published": "2026-09-05T18:10:58",
+          "source": "cnbc.com",
+          "title": "Trump turns up the heat on Warsh as Fed rate hike looms - cnbc.com",
           "topic": "Fed"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ29adFdRZFdqaTlNc3d2bGY0N29nNUtfd3ByZkIxc0dWRmJ0OHNuS0pJME42enEzd01od1ZhZ1lOQ3BDUGFEODhzcFpxanU4T0hLLWItenZMNHduOGhOTXNreFJjYWMtZ0VlMklzTmhpbjVBc1pHdFhXdVg5S1RObGM5MUlHbGRrMEE0eWp6cWliOUxQUzFwNHQ2WlEza3c?oc=5",
-          "pub_raw": "Fri, 28 Aug 2026 16:05:40 GMT",
-          "published": "2026-08-28T16:05:40",
-          "source": "NPR",
-          "title": "Fed's Kevin Warsh warns inflation is too high, sparking bets rate hikes are coming - NPR",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXNXbFhiR0xaOTliU21YN051SmZxSndRR1d0WkFHUEFBbHRsSS1EdE1zMUJ6ZlQ2NFRwNFZFWVlSMGx5WUc5RFVhYmE0WnNpTWJfbXRraUVTemlyU0U3ZFMzSGxwZDdMWVloTERkSkdfa2NiX3N2cThqbkRIUzhSVGNaRl9wak9YZVV2YXg0UVVZRWtXaG9PYUllRnl6dnNoY0NIQlZwNkRwVEpDOHIw?oc=5",
+          "pub_raw": "Mon, 07 Sep 2026 09:07:43 GMT",
+          "published": "2026-09-07T09:07:43",
+          "source": "Reuters",
+          "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report - Reuters",
           "topic": "Fed"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUFJSHBlaThPY3QxNm1TZEpORnhMam5QQUZTc203emxiY0pKSWJLYWtvaFZNMUd0UGluNzJHVHNhcTZERkpOdmpQR2ZsWC10Q1IxMTFIaDVVRkQ3WjhFWFZsX254RVVJUG9QemZ6ZEtIbndJZk1iYUtuNDEzUGFmejVPZTZlQXl5SEx5WGZPSzh1WHlXalY1dldNR2l3a0RkT0t2M1RZTEdLZw?oc=5",
-          "pub_raw": "Fri, 28 Aug 2026 18:27:00 GMT",
-          "published": "2026-08-28T18:27:00",
-          "source": "AP News",
-          "title": "Fed Chair Warsh signals rate hikes may be needed with US inflation stubbornly elevated - AP News",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU3pTVTYzdUFTYjh3STFmRnZ4OWZsRHdxN1NidEtGQVptT1A1a3kzREFCVnZCUWNGWEZiYWpZNzlFT0d4MF9IeUlOVGVhNExnVGUxOWxVeThUbmkwamt0eThuSlFxbk5xOHJkRzg1cU9XUEFDQUFZTnQ0eXJlaktjYU5fbUQxZEpaV1lzejlkUVVmNXl5RVHSAZsBQVVfeXFMTWxGblEwN1BKSTZYV0Q0OFhhYUt6Mjg5blZkRTJTTGgzNDJ3M1RQTk51RjZPQThsMEI5SjJpOTI0WEdYLTlVbkxCaGh5Qll3bHZmWUw2UXhOdVdaNWtMaTYwM2prVmdfdmhTQjVHeGdlTE4wRVY5TV9TeDVyWk9kMXBCMnZtakZQT1JITFRHbnVUQ0pfalQtNFFvRzA?oc=5",
+          "pub_raw": "Fri, 04 Sep 2026 16:04:00 GMT",
+          "published": "2026-09-04T16:04:00",
+          "source": "The Hill",
+          "title": "Trump threatens trade war if rates aren\u2019t cut after strong jobs report - The Hill",
           "topic": "Fed"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zRFEyWXpnOFFZcXI0NUNoa0E3VWhuZHpHMlpEYlFVX2ZzcjExd3F6QmJsSnpadm1POHliXzh5d3ZaS1hYODVKZjYxUTlRa1gtWXN5dFdUZDZqQQ?oc=5",
-          "pub_raw": "Mon, 31 Aug 2026 00:05:22 GMT",
-          "published": "2026-08-31T00:05:22",
-          "source": "bbc.com",
-          "title": "The US-Canada trade war in 5 charts - bbc.com",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0RPTHR2SjEwMElBUDF1Q0tOX1VZREdVSGNKVllkNUV3SFU0UVd1ZXRNaVBmVWdiZGZ2aHpkTEpPaVdhak1mQTZIWEhxZGlBbVo3VFU5N3hSS3V5OENFLW1CWFIxdmtLVHozeEotUDRTQ1hYQm5JLXh4ZDlnT2NlRENPNnE0d3NleXJ4RXBKdzQ?oc=5",
+          "pub_raw": "Mon, 07 Sep 2026 10:00:40 GMT",
+          "published": "2026-09-07T10:00:40",
+          "source": "NBC News",
+          "title": "Breaking down the U.S.-Canada trade war in 4 charts - NBC News",
           "topic": "Tariffs"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkczaThjMDgwN2t0TGpkZzBIOWVlNGF6ZHJWYjRKcTl0ZDhiSFNxNVNETEJuY0FtUnVHR19RbGlQdXowZUd2T1E3TUVIMVptdFNkR2s0eGdvLWZERG1sUjQxaGFmek9hVi1vREMwU294R3N5dzFLakgxVHUyYU9zRGRMSThBcVRGaFZsZDRsc1dZQW9HOTQwYkt30gGfAUFVX3lxTFA5b21UZDdNQUtCOUw1Q3AtclpxZ0g1NVNrckdQMEF6eHNGYXNGTkhxa0IyTzg1SlhHekFrTjh4VE1paUNrZ3Z0d1RLelh1dEtVZGwyTWpwQXFscFpHU3FESE5KTDN2dFY2MWVoYlk0Z1I2alpIOUpzTHpXUTRnMFREV1BqY3EzYllfVnR4MktjaXJoMG9DMkRkZE5iNHpUMA?oc=5",
-          "pub_raw": "Sun, 30 Aug 2026 13:00:01 GMT",
-          "published": "2026-08-30T13:00:01",
-          "source": "CNBC",
-          "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRElyWGxUU0lBc0NSdVlfdkRJd2s5Z0NnTVNQdE83LXJFNHJSNGZZUFRWNUg2T0YtOFNOQ1dFTERab0hQWWFvUUtodklWY2VOc0liUVVsUTgxV0Z5VnBBbWI0c01wMHNIenc2dDNvUUtfVkRhRk55QnRWR0p5QUM0aUtGTHVwQUJf?oc=5",
+          "pub_raw": "Thu, 03 Sep 2026 19:15:49 GMT",
+          "published": "2026-09-03T19:15:49",
+          "source": "Cato Institute",
+          "title": "Trump\u2019s Vaunted \u2018Trade Deals\u2019 Are Much Less than Meet the Eye - Cato Institute",
           "topic": "Tariffs"
         }
       ],
       "tickers": {
         "DX-Y.NYB": [
           {
-            "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWjhid2xKQl9YN3ZZbXF0UmlLaWttd2x2U2oxb0hEcVB4WVk3Y0NsdTZuc19EenBGY1hPNkJCZk5MMkhiVmpOWnJRTXJoZjNlNmF0NE9xZ1FXa0RpNjhPT3FvS1VXaWE3ZzBLNWxGZ2xtOFBTTDgyVEN6ZmpjNk5PZ21BenhISWdJRkxqM0hTemJYbmNDQmFwNWhhS0xKX0hwM2syNzd1Y3RsQnFsd0lVSjRDV1YwY1lsNlJJb1RodExFZFduYnhCZ0lKUFlVY1RLZklVU2s5dHczLVMxWWVKUFJ2dW1BRTlONXF2bEEyZXV2S3pNZUFTbnRYdGg?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 19:40:01 GMT",
-            "published": "2026-08-29T19:40:01",
-            "source": "news.stocktradersdaily.com",
-            "title": "Precision Trading with Invesco Db Us Dollar Index Bearish Fund -1x Shares (UDN) Risk Zones - news.stocktradersdaily.com"
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWGVRMGtaYjI0alhoaWlVRm9ubzBOQ2VObURhODRjOTRabVRpUGIxVWU0Rmxvckh5cWV1cHh2QjhzNGJ4ajdSUEhGS2ZwRE9ZRmRFTkZZMEFEb3hLbF9NRGZxV2JLZjVjblg5X0toWlVKc2VrVlAyWDAwS2lTR0RRM0c1U3UxTFNYVV9ZNVZoSWhWanhGVHRWWFFyWmd4WkhpbzFDcm1NQjlaSHF5SDlUVGJsdEFxSW4tcjhxa1JtRFUyZTVndXZ6WkJiVUQzcUpwd2NVcWgzc1BzOUlhQnRCQ0Vn0gHnAUFVX3lxTE4tWU9EQTItVFlwM1A0cEZab0FNTElKQzlrZklUZTNLc0hxN3kzMVhGYWdYRENHeHNld24xX0hpRjhscUpMa3RsNTBob2hqdjVXenFJYWVCTmY5bHpVa19yb0JnOWJUSzdjbnFod0oyaGItdUZuNmtZWFRiRVhPWkxYb0FpZE5KQVA4ZVpvT3lCWFJnQ0FmcGItMGVTU3hmU1lqeS1GR0V4bEdiZGRGQTRBSWhGMTZUVzMxSXlYUEhZamRXV2NoYXNaWEJCNENnVlluazRMbmhtUy12WXJlTDV3UkV6QWN4OA?oc=5",
+            "pub_raw": "Mon, 07 Sep 2026 06:35:22 GMT",
+            "published": "2026-09-07T06:35:22",
+            "source": "Business Standard",
+            "title": "US dollar index large currency speculative longs continue to slide - Business Standard"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORE5ZVlpKNDU2YWFOUnZlUVNIT2xHQkJDY2JsTzBZSTdoMFRlY0hYRTZZdjJuWV8wWEFGY3VHVVc4TTZrcERMZnEtWW16ZE43RnFaYVV4NWZjR1A2ZXplR0ZEcjhIVTRsZnlxWjV6THFzM3NoMHVubFg1MUMwbkRKa01fMnFjemozNi13NEhLSC1kRFY3NG9XLXVkUjhnY1RWaGdTZFhWQ2dINmhBQS1IWk5PN0E4N2tLWl9JWWVlZ0JiWGpicmlwNUdNbUlTbHZkZmowU25SSFMtNXNENU9IMXNR0gHiAUFVX3lxTE5ETllWWko0NTZhYU5SdmVRU0hPbEdCQkNjYmxPMFlJN2gwVGVjSFhFNll2Mm5ZXzBYQUZjdUdVVzhNNmtwRExmcS1ZbXpkTjdGcVphVXg1ZmNHUDZlemVHRkRyOEhVNGxmeXFaNXpMcXMzc2gwdW5sWDUxQzBuREprTV8ycWN6ajM2LXc0SEtILWREVjc0b1ctdWRSOGdjVFZoZ1NkWFZDZ0g2aEFBLUhaTk83QTg3a0taX0lZZWVnQmJYamJyaXA1R01tSVNsdmRmajBTblJIUy01c0Q1T0gxc1E?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 06:01:02 GMT",
-            "published": "2026-08-31T06:01:02",
-            "source": "Business Standard",
-            "title": "US dollar index large currency speculative longs slide further - Business Standard"
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Fa1d2R2xsVVJQTVZtNmVtcWlranhfNkt1OGg1OUp0VnRaRFFSUlRvMG5MX2lYSlBRQnhvcFJ2dHpDUDBJUlNuZWs2b1ZDU3RYZmc?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 20:21:00 GMT",
+            "published": "2026-09-04T20:21:00",
+            "source": "Kalkine",
+            "title": "Invesco DB US Dollar Index Bullish Fund (NYSE: UUP) Share Price, UUP Stock News, UUP Share Price & Updates - Kalkine"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYTljNHBMRDFuVjJYX3dRUDFWdDN1d0tlcnhnd3dkOFhfSy0wdVlsUHFnS2Q2REM3R2dsMGhzVTRaWHlzRl82UDZJSGstcW0zLTQ4ZkxZUDZVS1N3TUZqcFZ0OGNoM2ZBV1RScG93ZGI5UG5JeHZhaTJVSmNQMS10RHIxeTRJdVdjMjFNRzgxb3E5eDd1UXp1ZTV3V05VTi1qMHFxdTlXLVdXXzQwejFLTFd3eXJ3Y1ZWMHlXWlIxQS0zQjcxb0MxeWpqNNIB0AFBVV95cUxNLUFpc0hkdnd4dlFDR0hGUDNjR2g1dlJsVzl2Z3FKLW0yeldQeXVUdXdvYm5xcnlkb3ZrMjJMck41UG93d3hZcGxyWVpQcmg4Rl9uOXBwQnVmTVNmMk9MbTZDeDM3ZlVYZEo3eUdGN3M3WXA2eFNPaThWV25rcDRLTUVRRmtucEJDSWpkdS1NWXEtc0RmVnFvb2pfTEM4ajUzTkF0THo3aTgyWV8xbVpMZlVkckJUcVVsd213d24zVUlfUGplNDlVQ2xzQ2xkSjBS?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 12:01:02 GMT",
-            "published": "2026-08-27T12:01:02",
-            "source": "Business Standard",
-            "title": "INR subdued as US Dollar index hits one-week high - Business Standard"
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLTZvLUsyQnZYOGE1clhTYjJRY2ZLT09OdFdtSEIwa0ZXSFNxd29aZW82YzM3X1hiOHNsVXFXc09DZzFqRFhtX2tualduQzZ2T2ZJWEVaam11cnVCeG5XVDQyZ3MxeklFRWtJVERsT2RwS2xtVGdJSWVCVjVMNV9GOW1fbXhGZ1E1dnlyNU5rUE5FM3lQQUJB?oc=5",
+            "pub_raw": "Tue, 01 Sep 2026 22:43:10 GMT",
+            "published": "2026-09-01T22:43:10",
+            "source": "CryptoRank",
+            "title": "US Dollar Index Gains as US-Iran Tensions Escalate, Treasury Yields Rise - CryptoRank"
           }
         ],
         "EGP": [
           {
-            "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNXlpcU5KZ1BuSzQ2TDk0MXZZakZNRGQtSjYtaVktQUFDY0ZIOVQ4R3JRUllISUFBcjNOSGtjM21yMW9WdlQ2Mm1EOGpBZHp5c2RhN1NqRFpXRFFqN051ZmlsM1pQWUJHV1k0M2xnMUVkSlNuQTduTk4xR3lhVnRYZ2VZb3pzbFpORUhlQlBUTzB3eHdKQkFLNDlreVJBVmNjU00tdFhpaUwwMkR2ZFo1TUNKeUp1YTZNX2FqTkVFeTN4WU45Z2I0MTdsaWVnU19BdTZkNFlFSklYWXfSAdsBQVVfeXFMUDV5aXFOSmdQbks0Nkw5NDF2WWpGTURkLUo2LWlZLUFBQ2NGSDlUOEdyUVJZSElBQXIzTkhrYzNtcjFvVnZUNjJtRDhqQWR6eXNkYTdTakRaV0RRajdOdWZpbDNaUFlCR1dZNDNsZzFFZEpTbkE3bk5OMUd5YVZ0WGdlWW96c2xaTkVIZUJQVE8wd3h3SkJBSzQ5a3lSQVZjY1NNLXRYaWlMMDJEdmRaNU1DSnlKdWE2TV9hak5FRXkzeFlOOWdiNDE3bGllZ1NfQXU2ZDRZRUpJWFl3?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 13:25:11 GMT",
-            "published": "2026-08-31T13:25:11",
-            "source": "simplywall.st",
-            "title": "EastGroup Properties (EGP) Lifts Dividend As Its Undervalued Narrative Comes Into Focus - simplywall.st"
+            "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUm5Rc1JVZ3F5bVNZSm56WE5jbVRtRXpqQmpUSzVwMDJLX3FQazRRdEJtX05TZmpteFBQaTlQMVVobkpkdjUtRE5Makh0Ym9BeGc4aHRsSzdQVnF0TmNibm9uRzVsUHp4elBhdDVDbEN4aXJqSWp5cUpGRmppSkxyTFl2ekVnem5wN21GYmVWS3FBUjlkVURYMm9scFFkUjROdmJqanI4MC1fZ0ZaX2JXSDV5MW94cXd6UzRxSEZsZVBRdVQ2bTJaWFpnSG5NbGpsTmgzaUNQX2t5STB3endIbEM2MzF0ZnBVNXpCdg?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 09:11:22 GMT",
+            "published": "2026-09-04T09:11:22",
+            "source": "marketbeat.com",
+            "title": "Wellington Management Group LLP Has $45.48 Million Stock Position in EastGroup Properties, Inc. $EGP - marketbeat.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRThzV0xXRlZ3NU02Nm9rTkNmdWVfeXVLcU8ybEhSZVNDYjVicFBLNmJFVGozbWdqSU1JUDE2YldJY1ozSDJ3b3RLMmJuNDA3OVJvTXJWeDVtcDlvWlJBRTRTV1h2Q3M4RzctbFJsRzhFY3FoZUhROVlWdFlFc0dON09kOE42QnVqNGNab01FeFZBbE5ieHg0TUtzUTVFSW1xSTdFeVgwdHpZaVVxdXFXVHF1MTh5eDhhTVhiWnloME82N3dsQnlvVw?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 09:07:09 GMT",
-            "published": "2026-08-31T09:07:09",
-            "source": "MarketBeat",
-            "title": "Jupiter Topco LLC Acquires New Stake in EastGroup Properties, Inc. $EGP - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR1dZVS1WZ0s1VWhFbW5RUVRmbUlTVDhDUlRkcDJRZEJGMjlESFZzM2xmTzNTU2xmaWZyN2tZamxmS2Y4SjZDbnVqZ2djWDRlWU5FdkNSM3ppdHVqMTdzcnhuWmZyMWItemRTUGxiaGxPbDcxTGFZcmxWUGxjbnYtMGJLUXdsc0tuRXpZYlJ3X3k5ckxHam9VdmFfS01meUJDZ3BseXlieFBxRHJpdHUwUEF2cFZkeU9zOFFRM2VMYXFLZmxR?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 13:34:00 GMT",
+            "published": "2026-09-03T13:34:00",
+            "source": "TradingView",
+            "title": "Is the Options Market Predicting a Spike in EastGroup Properties Stock? - TradingView"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWS1EcUpPbk4yWi1fLTltazRmU2tJMjBFZG5DQWxOdUVkNHIwZWFFVGJWLVVWMTRHRm55amxxV2x0cWNlOUtqSjJNTUlUUnQ1b1pfenVJaHNjd082WlBoZUNfN3M5U2h0WDBadkZiOWl1Y0hsSGhtRHRBaDhocnNMV2ZRRGhFRXNwMXl3YTlzT050N085Vi1XMUVaeWc5X2ROckI2ajhJRQ?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 21:06:14 GMT",
-            "published": "2026-08-29T21:06:14",
-            "source": "Yahoo Finance",
-            "title": "EastGroup Properties (EGP) Lifts Its Dividend, Is The Stock Trading At A Discount? - Yahoo Finance"
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYTlWd0RwUE9XZktXSy1ESWNNT1BTdVYxUnpTdnN0MlJFVXNJamlJRWRoZzJ5dlBGVU1NcDVGX3h6M1NHU21jYmZ2d3MxSkRPM2N2RFV6eHg1ZXVHeUh6UDdTRDhWRVpTc3JBcVRSM2R1R1V3UTBKT0c5YmlRd1VGa0FWUWN5UWViNFNJU25qWTh0ZHJ3Qmk0SERHREJfXzlOb1lTTEh3TllTT194Z3Q5VDh3Wkt1cmM?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 20:50:44 GMT",
+            "published": "2026-09-03T20:50:44",
+            "source": "GuruFocus",
+            "title": "EGP Looks 1.4% Overvalued on GF Value\u2122 as Dividend Sustainabilit - GuruFocus"
           }
         ],
         "FR": [
           {
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRklldFNpTExTeGpTcC1YNXhjUFFrU1AxWUxMd2JORGhBZkR3bnB6dlZ6RlNHTkdwdkZDNmlkRnhQc1AyZUhvNXNlNEhobzBBN2t3alpZXzBZc3VMMVRxRWJxbWNRNXpCb21VZFNGUzhGOVBHbVdHMUUwNFQydlVQcTRPbGEtS2lfLWpBU2s1N21Uc19vTDlDNUhaWktqUQ?oc=5",
-            "pub_raw": "Fri, 28 Aug 2026 16:00:03 GMT",
-            "published": "2026-08-28T16:00:03",
-            "source": "Yahoo Finance",
-            "title": "First Industrial Realty Trust (FR) Upgraded to Buy: Here's What You Should Know - Yahoo Finance"
+            "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOenJKbVJWLTVQVnVKUG52QzBiNVZFNV9MOEhVb29Ed0pmMDh2bV9zd3JONlBxcjFXejJhYV9UeXJwNUZMaUdReS1aUG11VkczQ0NIUmVnajN2aE10ZGdZNzZOV0ZXQVhKMlNwQm5HWFREc1lKcTFiWVpEbzlyNG5wRVRlWDZRSjJxYUx2ZTZHem5xQzVkQlRqaGhxeERaUGJua2RScjJMem1uN0VZZ0VaVUQ3M2Fqc0ttbS02VFVBTzJFVi02c0hkZVdFdmd2bUFKdlBJWGRVWi10ci1PVkE?oc=5",
+            "pub_raw": "Wed, 02 Sep 2026 08:43:55 GMT",
+            "published": "2026-09-02T08:43:55",
+            "source": "marketbeat.com",
+            "title": "Jupiter Topco LLC Takes $3.71 Million Position in First Industrial Realty Trust, Inc. $FR - marketbeat.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNQ0RxVnN0cGp2X0FhVHoyanFqR013TDgwQjA0MnExSGJBQzdlNE1VWWduM2xsdjZQVFNlSEprYTEtSHNVY2pfdnZVWVpkVTJUanV0OEdwcFFyX0FsQ0MyM1kzcnVBUTRxMGItbnoxR1FuR1dWVXZBZUVfMzBvLTN4UHA5azVXcl9lbDB6QXI4Qk9VTWJzeFJnaG1Kc3BFbXJSUjk1Tl9zVjlRZjMyMFBoQTJ6ZDFVdzJ4M3UySFJZX3Y2LW1zRjFQWGZQMVpVWlFVZUtXWFJRb29XTkJVTmZ0TllkRzZhaUFWZndEOUlEWHlGd0lZMGctNE8xcw?oc=5",
-            "pub_raw": "Sun, 30 Aug 2026 09:22:59 GMT",
-            "published": "2026-08-30T09:22:59",
-            "source": "MarketBeat",
-            "title": "301,248 Shares in First Industrial Realty Trust, Inc. $FR Bought by Public Employees Retirement System of Ohio - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaHg2djJyRHJ5RWtoZTgyWVVTUHRvN3g1bm1YZHdIY1gyZ2xoYzVObFNlV3FRRi1ZWWlkVjhqR0pkUW1kUm05Tnd1ZDlNWEVYNlZKdjF3YklWbmRZUzBNTGdDcUNxR1owWFBNX080RUpKUmpLSXVIMkJ2UTRqNjFBVWJCa19XcjRObWxVN1NvX2xvMHVNUmt0NUl1akRTYkVuS3NReU9fZ2dzRk5DSENPTk1yVENLd2VGR3AtMXJJSUR2VGVzVEk1ZTdDY01TR29RMTZvSm9xa2lfdUNhZy1oLUhkdFoyeEdBQ3V1X0VrM2lnQk0?oc=5",
+            "pub_raw": "Sat, 05 Sep 2026 06:16:41 GMT",
+            "published": "2026-09-05T06:16:41",
+            "source": "marketbeat.com",
+            "title": "First Industrial Realty Trust, Inc. (NYSE:FR) Receives Consensus Rating of \"Moderate Buy\" from Analysts - marketbeat.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHo2SXJDRWU0ODhYNzJ4MlJBUDhZbEltYmVCOHRoUV9IdUVtOENuOGlCczdfQjd5U3FCcXVaTDFZdGlrQWJsSmI1aXZ3SUpLQ1IyN3d3VXZQVUtBX3FhMjhvNEJQblBTUFFFVUtvejRXZlJfbTE0Y3AtUTVoNmZIeE56SHVRMHNWXzhQQ1NZRlI1UV9COXBCQUExa3B5UW44YzZxNnV0WHdQLUNXZXJCNHlJbGtjV0kwVGE3Z05NVzgzeU1ia0Nza1pOblZWLTVsS1ZhemI3TmxzYzA?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 09:43:30 GMT",
-            "published": "2026-08-29T09:43:30",
-            "source": "MarketBeat",
-            "title": "Legal & General Group Plc Buys Shares of 699,998 First Industrial Realty Trust, Inc. $FR - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQV2tFdnV1NjhYLVYzMl9iVWw4SVFQVFVlUG50SjVrRHNNWmNZTzY5MllqZFlLcnp4dmVfVHlsdHRucWhocElna0hJeW12X25PYUZsNjVlRndnRi1aQnlkR3UwUko0UXJRZktfemhCM2prZFVGYlc3T25lWF9GMnZLTHhRS0FfSzBrQVp0ZUQzSHpXYk1qMC1xS0xUTVFsWFIwXzUxXzU5cDdha2VLN2hGU1NzVjRyTGdicGZPWTdvUzJUTnFTSnJBS08tMTRiYk4waktqbWctc212NWZYbGQwSDd5RW1qRW4yM1k1SFlnRlhueXNDbjJtOUlpaFdkWWk3MEtlYVhES25uX2F3cWZERDFnQ3VTSkdwYTZmaw?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 09:27:07 GMT",
+            "published": "2026-09-03T09:27:07",
+            "source": "marketbeat.com",
+            "title": "UBS AM a distinct business unit of UBS ASSET MANAGEMENT AMERICAS LLC Has $48.22 Million Stake in First Industrial Realty Trust, Inc. $FR - marketbeat.com"
           }
         ],
         "GXO": [
           {
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55V04wb25wNm5FN0RoWEhVTzNZVFNNU3REM19Rcll5NXk2OHJpRWkwN19ibFhfRnc4Q3B3UlhHMEh1N1M4M1MyZnhCOXNJRFlPUHQxaUd6cGstalRjd2N0N2VMLThtX2MyV2liNFllaUFwcGxJT3c?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 01:01:33 GMT",
-            "published": "2026-08-29T01:01:33",
-            "source": "Quiver Quantitative",
-            "title": "GXO | GXO Logistics, Inc. Financials - Revenue Breakdown - Quiver Quantitative"
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0M1V0FRVWFtMDRoRVNOWWh2Q2VJeUpnYXVON1p3RFV2b2JjM2wyMHBsaXVwbnU0cHk5YlF6VFJQTUVNbFJkcFotZXpkTzZSNXVDRXBHaWEwYk5Oa1dCMFliYU56cnRnM24zLVVyME16eUhLNXk4a25YSmpYZ2tfejVBVVdyYllYVjc0RFFIYm5mVGRjT1oxTENUeERvTlowRzZQVnR3NnFJZkozcGFpRVdtMWI0QkFJNnB2Rw?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 11:09:25 GMT",
+            "published": "2026-09-03T11:09:25",
+            "source": "Stock Titan",
+            "title": "Systems and innovation get separate leaders at GXO - Stock Titan"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KTTFVRDczVFlNbEJBS3R3dzUwVVloYk54WFZQd3JyRFdPOVVuQ0R3QTlEQWY1TW9xU2pZbXBIWlJKR19MaU45dW1NOEhSMFFfa2VwemVSRzNwNEVzeXRqc2JjOG11clVVbkE?oc=5",
-            "pub_raw": "Tue, 25 Aug 2026 07:00:00 GMT",
-            "published": "2026-08-25T07:00:00",
-            "source": "MarketBeat",
-            "title": "GXO Logistics (GXO) Short Interest & Short Float | Updated Aug 2026 - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTlJaaXo0WC0xeVU0MGw3VkxBYnFzUVhmaTB2Q1lRN0lnMDlpWjZZNjFnREMzVFk1Z05lOHdWaGtOZFpZLWFfZXhTWlB6c2xKLUI5aEY1S1ROdC1UQVNtcVlyR2NTOVBoMWZmcHk2T1lsVzRGOXVYd29TeFlnbU13bXRNSXVSemN4RS0xX2VqVFNHWVlheVQ4NUhraWdCMC1nVHAtSjcwd0l0NnRrSjd1dm50X3VGdTFwa2RNUG1n0gHDAUFVX3lxTE8tNU1XNGRSUnZ6SmxtbEwyUzc0OUZ1cjQ3UGZDU1FneWZ6c2NHaDZxSDc5QnA4V3BwVy1XUGpoREFEaEtybXVqc3hhMlpEUW1nOGM1anQ5VTl6ZXJlTVk5MlhhMm9xVUJ0Zml2SjZ6Q0R1QUpwSlBNT25XV0VvZnRQN3pzUkVMdmxxNEdEbWFvWDVjaTJKUDZCc01sNTBCRHBad1Z4LXhMLWNsX3ozc01xVHd1ZjNSNVZJTF9BZWhkcDRzOA?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 22:40:04 GMT",
+            "published": "2026-09-03T22:40:04",
+            "source": "simplywall.st",
+            "title": "Why GXO Logistics (GXO) Is Back In The Spotlight - simplywall.st"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBROEVSN1JwTm55a21ZeFZVS3VXbDB4S1Q4RU9WSmd4WE1hb2lTeGVtZUl3OW1TUFpHQkRiLTVET19HWURNVExHVjg2LTJQSmtXRUc5NDlSMHl5YVliMXZhRFNWbm1aTHB4YU5pODhoLS0xRE9xbUE?oc=5",
-            "pub_raw": "Tue, 25 Aug 2026 07:00:00 GMT",
-            "published": "2026-08-25T07:00:00",
-            "source": "MarketBeat",
-            "title": "GXO Logistics (GXO) Institutional Ownership 2026 - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd3BlV3h6dldLdlRGd2o4WUJjWUtSSzQ4djMwNktkMDZfbWJOeDloMHBzM2x6UVJFUWg2LWlnWlBoMWtyQ2xKR1U0dFhVTWJtZE11SW5XdFdrS3k0TWVUaGYta0xxUnFEMnlIQlNSSEpEUEhTTkJVa0FsN0ZocjVSUGhvemhnamVGWXU3WnBhSUwwdW81eWM3LU00QS1VaGExekI3RmVhVmM3dElxVm4yZEY4Q2I?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 12:20:47 GMT",
+            "published": "2026-09-03T12:20:47",
+            "source": "GuruFocus",
+            "title": "GXO Looks 24.2% Undervalued on GF Value\u2122 as CIO Appointment Sign - GuruFocus"
           }
         ],
         "MANH": [
           {
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV19oY1dibjczdTlDc2NvUFdhMXFIc0tjam4td1prcm9iVHZuOHlxNU1UT0JqOFR6bTFnOUhQSkZBcnFTOEZiRDBTaXg4bWxFMWNBRlU1elBMQjRRWUpsbXVST2JLaG4yVHBBbTdzbzZCUzVkaUtBdlhNVG1wZG9ySjZvc1RTell3c1FXRmpLZDRNZ3R0OVdEc0FZcWs3NmFneXZWVDhkWk4zejNDQzNKYWZiV3R1cDBJQ1EtbEV3?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 08:56:59 GMT",
-            "published": "2026-08-31T08:56:59",
-            "source": "MarketBeat",
-            "title": "Manhattan Associates, Inc. $MANH Shares Bought by Fundsmith LLP - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTTVmRnpYakI4dUF5LTJrX0ptNVBCUWtVakVST3BLZlZmc0lzdDVRWkdWLWloSG1uSHlqVXRTUnpZVlZuVlY2Yl9NNDJjWDVYSUh0dEdSX0F0d2RwV3dUa1VQaV9OcTVQTjExV25sUjlTbzk4VWstcWtzS3FjcFNNQnFXdnBuSkxLUG5zZTlqT1UzQjZLd0lWb2NYTjJCRDhMNi1GR2c1MFZkd3ZDWVRaaU1rbURQQms3TnJfQ25XZUR1Q2dUVk5ZckVsaXBOakYycDRZZXh30gHbAUFVX3lxTE5fU1N4ZFpwZjZYZGF3QkVKODEtckdQUVo4bGRYWHZESjlEbzlXMVhqanlLVTNjY2JxQnk1UGtGNGhBTFA1T2dodEhIWU1uNk1UVXBWbWktZzF1QUU3X2NKQVFzcXlUdGRRdEN2MmVBb2RhQnR1NndwMWVTZ2JTYVRMcU9NSl8xNEdPZ1BUdXBsdTc3eEV6VnRmY05pRldHb05Ud0Q3OWFpeWhNejRlTkk4QTFVWUpyck5mN1phMG9STkhsVkRKLWx6OFhNdTJUeEFXX1otZUtQX202NA?oc=5",
+            "pub_raw": "Sun, 06 Sep 2026 21:28:29 GMT",
+            "published": "2026-09-06T21:28:29",
+            "source": "simplywall.st",
+            "title": "Manhattan Associates (MANH) Could Be 19% Overvalued After The Boscov\u2019s Fulfillment Win - simplywall.st"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaldiWFFNbjVGNXNCdG9JLXNEN1MxVmdSbWoyLWgtYkFVTGtBbXQyUlN0ajBtR29wR3lVeFRiRUJTa3RrZVFBSkRnc1REajhUYTJGM3FhU0lBelZEUm9DQ3NNekxiLTFYeWVqaTYzQ2w4TU53MGR5NHdPV0xoMFJzb0VOaUtPT3RtTkJueXdWSktzdk5JTzBjS2pudHY?oc=5",
-            "pub_raw": "Sun, 30 Aug 2026 07:00:00 GMT",
-            "published": "2026-08-30T07:00:00",
-            "source": "StockStory",
-            "title": "3 Unpopular Stocks That Fall Short - StockStory"
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYTRRTzdHckZPcy10VFVHaDZreFBPY3M4MldiZzRGQlZVem43LWE0cm91ZGVHU3l6V2dyV3BZSHVWWU9TY3VTdk5ob2Vldm5GeFlpYlBUc0NlandlZDlfTTExZUdITFZ4NGhUeF8wMW9wM1NmWFI4MEJ5OTBldlhsczNUMTNoM2ZvR2Y4c1ZqeHA4QUVOcUoxNV9PRGZVTUVqSzdpUEI4TGhEeWxlcVlKQ0FDaw?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 22:33:17 GMT",
+            "published": "2026-09-04T22:33:17",
+            "source": "GuruFocus",
+            "title": "Manhattan Associates Inc (MANH) Stock Down 3.8% -- Now Undervalued? GF Score: 94/100 - GuruFocus"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFBsN3NlYzdpbDRqbk1hZXRrSHpjLW5aX1E5T2ZFWFZxaXN3RHhjRXd0NThTT3p1N01tUmUyWVhkaEwxNXA1aEZqTEdSU2FPbzFUb1dIZUdDdWJCNGNYNnlISGFQcHQ2ZWMzRk1WTU55RktJZDV0Q3M5VXZSdlRDclg5VDZaeThiRG9ERVo3TmlRZXhYOG4yckFQOXZQWkdOdFFGeGVlVzAtVFIyclE?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 14:04:01 GMT",
-            "published": "2026-08-27T14:04:01",
-            "source": "Investing.com",
-            "title": "Manhattan Associates stock hits 52-week high at $220.61 - Investing.com"
+            "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUENGNVYxdG9wMlFDbi1fUFJmZ2l4dlFXMFZBN0F4MFY3V2ZwT2haWTNJUnhQYjM4S05oSWpSa3liVEs3blRFVUc4X2g3VDFjWnJoWE1WVXlXWGNxcTJfZ3QyY0RUTVhHand5X1BfMEowSDJieUZnZWcyUU5DSGtoNHhLZ1J3djJfSlJObWpvcUk4RHkxNkptall6MEVoNlp2VWVXVDk1c3BiMXoxX2FZa191MjBDckdmQXlJLUpZVWR5cE5HckJPRUR3b2FEbDI0M1ZnUFM3TVZvbG81ak9SblN5Njh2VzBEX2ZhdW15LU8?oc=5",
+            "pub_raw": "Sun, 06 Sep 2026 08:36:24 GMT",
+            "published": "2026-09-06T08:36:24",
+            "source": "marketbeat.com",
+            "title": "Public Employees Retirement System of Ohio Purchases New Holdings in Manhattan Associates, Inc. $MANH - marketbeat.com"
           }
         ],
         "MLI": [
           {
-            "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQ3E1b3pwNVlnZXZXVHk0UklIUFdjRkxxNDRjZTYtQjc3a3dNRFFfRGlNaWRqOVVsMVQ5RGZFMGh4QXZYMjh3VEFicWxxVWxQNVdNLS1CeVNhcWYwSExnUW5Id1NJWFI2R2JkWDBXdGptVFpwdy1yekR5VUJwNUt0cHNWclRwbkdUbXVnZ2JTdE1IQ2RSYmlGc3diT0xWNF82R2RQVUVibmpUWHdKemVMYUNfRENIVlF4Qi1HNkVXODVfNUcwYnFwaUVHakxPR1RUVGZWb2FaTWY0OFNk?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 10:51:54 GMT",
-            "published": "2026-08-31T10:51:54",
-            "source": "MarketBeat",
-            "title": "Mueller Industries, Inc. $MLI Shares Bought by Susquehanna Fundamental Investments LLC - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN2lYYXhxUDVhNVplRlIwdHMycUNqSzFmd21zZnB0QkVkTVloTVI5bl8zN3VDazVsY1MxcnRLS2ZteTgtN1pBSFNyRXdsalZXcWRSVXh1MUFXZGdhejZhclNfZWE3Z3l1ckd3Y2szcS1EOERLeWYySW83QjdCYnlVUGdDMndjMGRUcHJ0QzBLcW81b21xT2h1SmVVQWNCN1dZMkxkRWo2VXhhWU9rYzRjbzdqclhISEJaQm50cENKaVhmbnNqLWQzSnRaYUludjZQbUZhatIB2gFBVV95cUxPVE9XeGZIV0NOandjSWtoOF9jdFJRdm1PV2RxNzZTcnpRRzBRMUFtQjQ3d3p3ek8wbXZtOFQ1TW1QT2lPOFRSNWNoY1FCb3FERkpFSWFLdndqMnk5dm1sN2hUaWtneEdEVlBFMFhrLU0yWkxuRmFmN0stbjJSQVZFTWgtWW95TFJUaXNtRGcxeTJKMzNKQk5NQ0RGWjBWdC1xbmJyeGtreXpYelU0YTFSSTNWd0dzRUVveG4xNEFkYk5qNVhhdnJWMUFlN0d0OXRWZ0VnTjdhS2FQQQ?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 21:39:46 GMT",
+            "published": "2026-09-03T21:39:46",
+            "source": "simplywall.st",
+            "title": "Mueller Industries (MLI) Pulls Back As Undervalued Case Comes Into Focus - simplywall.st"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Hd24yejkzRlhnZTRMMW9XV19wMWdTWlY0QVZBXzRWRFdtOHR1RDRhSndsYlloZVE5OFhaenZ1bkpaYWpHYlpPTWxHNG5jSFpveFZEZTk1M1U?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 09:58:31 GMT",
-            "published": "2026-08-29T09:58:31",
-            "source": "webull.com",
-            "title": "Mueller Industries (MLI) Stock Looks Fair On Cash Flow But Discounted On Earnings - webull.com"
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOTl6Y3lBTHJNVlpLdXNxSS1QbEZhS3BUUXpDRmMyRFVRSFRYbjdmbGNzTEI4UjVwTl9uRVUtR0ZDSkZUV1NkU1VXck1WbjFCcTJBUC1iMUxDaXF6QUlTQ1h0MkRTdC1FMUhuQWNvRTgySlBXTFc4NW9LS1kzMUZlSEdkaUt4RUdDeGFIUUt2TUw5QTFnUmZObXdOUXRWdE9Wbjd5M3AxWXVxMlVud1hFM01WWk1PdjFUanoyUUdvRlBIS014bkpHX1Fsc05YLWgzLUFnbmFVSWE?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 07:16:02 GMT",
+            "published": "2026-09-04T07:16:02",
+            "source": "marketbeat.com",
+            "title": "Barlow Wealth Partners LLC Purchases 210,169 Shares of Mueller Industries, Inc. $MLI - marketbeat.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNzBGSDNtX0hPbGZ4ald3TXJtNFdYUHBGY2ZOWXphUzBoUGtTZEtwdmctRVJHOU5lYVZNam1lOFdpamY2b1NsYjlsY0w1djBDUmVUVW9rb2p2Z3J1aENmVkp0R2hNRmxYYUdKNzY4MUdzdzVlZlIyY0YtTXFSZ0hXeWRKMDQ5WmZLcGx0NUtiWDF4ejBwNjdXZWZZaEN2cVVudGJ6anJnQlBwSms1cUQ2Z1NxMV85TTdXbzFlbmVTOG9JczQ?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 17:48:38 GMT",
-            "published": "2026-08-31T17:48:38",
-            "source": "Investing.com India",
-            "title": "Mueller Industries director Scott Goldman sells $128,160 in shares By Investing.com - Investing.com India"
+            "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRVNHMUlocllLdkJYeHdibmtzQ2NqUVBITnIxZXYxd2NzWXpyQ1RlVE1QT0xDYjFnaGtQbTJnQkRYa2VSTjlrZ1JOUFl2T0lTU3RoOEs5eFdXMkRLcmwwUFVZZUlNN2ZZc0xLbVAzLVpIS0RheFF1d1d1Y0RvQ1pieWFwdmhsNGxpcUtSSlNjTXRvY1psTW5lUkxLdzhndXh3aW1wY1F1bTltU1ZCVnBYLWoxMklCSGxiV2MtOGlwVEx5NHM3SDdzZklIdEZNa3lYUExuVGVER2p2QTliOHhCQ1N3?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 08:52:48 GMT",
+            "published": "2026-09-03T08:52:48",
+            "source": "marketbeat.com",
+            "title": "Public Employees Retirement System of Ohio Takes Position in Mueller Industries, Inc. $MLI - marketbeat.com"
           }
         ],
         "NSC": [
           {
-            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcVlvS3BRdGJPbXJ4ZjlTZnY2Y3dsNElkMzdrcnhBc0dVTmM3T3BKd0Q4NFg3ekVpZVYzN3cwalNjbS1VRFhvNDBHT3VDUUlORUFudVVNa3R0LURvZ25IdXFOTzFjcEFFdU9tTW1TV0xBNFFWanRzb2RWLS1zWHZEOXRVUEtlZm5wTW9samZxS0U4ZllCLTNQRlhNUXM5TF9YTFdYeEFIVkFTZVQxVGlzR1F1RFZQOXFtTUdsa2xmQm1CZmU4QjdMVEFQVkxNbmc?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 08:55:32 GMT",
-            "published": "2026-08-31T08:55:32",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZTEwMlZMLUY5elZZX3VXWG4tS25sM3h6c18wQzNkeHIyVnNabTgtM0hWenhiMDMxVzNyTlpuR3hvVVlGWHFHcm81SjFFZ2RpUzRqTEFDTmJwVkp6X1dhX2RHeUgtVU9mZEx1djdsNk4tUlZndU9mVUdJZzJjSXFJNVQxbFN3U2ZhcF84eExmR0RVSnRpc0RLc2g5TE1BZTI1THcwUGxSM2pSZEF6dUpGT19kWG9zb0kxa3dkRHotUExvNUV6aW04VVgyOHRBS19Tekk3M9IB2gFBVV95cUxNZVQxRDQ4cGlsR3NFWDVCYnFLRHZnS2kwT3hWNmJObHBTOVVUT250OWxjclhmbTJBUU5feFZaTkM5VkpnRldaQXZud3FrSlVuNXhrajUtREFtVUFUNS1Qa2xCcHJxcFJJUXJqVWNQTG1oNlllYkNCU051NkpRS3V0MnpEX0lZWnplTVJlYy1RaFpFSWduamdiWmNxV3gtYzBRRk5sU21vVldZdjZCa01RalgzM3pvRi1mT1YtaVFSVVMySHdpVkhXQ1owZ2d2a1BJVVNiejVydXlhQQ?oc=5",
+            "pub_raw": "Sun, 06 Sep 2026 06:24:19 GMT",
+            "published": "2026-09-06T06:24:19",
+            "source": "simplywall.st",
+            "title": "Is Norfolk Southern (NSC) Undervalued On Merger Scrutiny Or Already Priced In? - simplywall.st"
+          },
+          {
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcEFEUzBCZHNrcm81V2hGZEFnbnNPcTY2S2dBbTkweGVSakxsa3JfOGx4bEFlaDJDWUtOU1BQM3dzZmg3TjNqT1ltS3V6UFlGWVMyVDlXOGxGRDZ2VnU0NGtzNlc4WTRxTGdkcFNpbEloMHItd2M4ZThFQ0w5WkFSYmxnVjhxX2FvWWxZMjVzc2lWWl85R0hMZzN3OXpMamJEc3RUbUF1c3hSX0Rad1hCV3lvUmM0cXNnWUE?oc=5",
+            "pub_raw": "Tue, 01 Sep 2026 17:15:00 GMT",
+            "published": "2026-09-01T17:15:00",
+            "source": "seekingalpha.com",
+            "title": "Union Pacific, Norfolk Southern drop as state AGs raise concerns over combination - seekingalpha.com"
+          },
+          {
+            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSWxfVGpsU1UzdU83dlp3NHpSYk9ESkh3T2lmUmhrREhGb2NkUWZ0MjF3aHl2dHY0ZXk1bjhtZ2RTRU5kT2thb0lsWG4tRmFIMWZjaWhFOGdjNVdfWE5kRW5vcXlYTVVpR2RlbEl2VE1sRmQwYm13QmZYWUViOXZZajFKbGdSNklTWmFWY2NqRGx6VWN3XzFyQTRnWm1GQ0Nqc0EwQVpXTlhyV0V6UmVvalpjSDN4TFAyRHc?oc=5",
+            "pub_raw": "Sun, 06 Sep 2026 08:34:15 GMT",
+            "published": "2026-09-06T08:34:15",
             "source": "AD HOC NEWS",
-            "title": "Norfolk Southern stock holds steady as investors digest recent earnings and guidance - AD HOC NEWS"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXVyNTNhajRhNkdNZGV1clE0N2pLVzJQRW1aTk9IbTlfT3dIMUxpZlRrT2oyVVJsbGRxNUJleUlvM3pqVXBidXlrdy1GaFF2UDV3YUNMQ2FjQW5fQ2p1c2hhd0lFXzdHM0czYkhWeEZFVExOUmNTY1otLVd5VXZRZXpGc1lYRVhEWlRJTkxHWGxCdVNtdEljd1hBUkxwVG1tV1pPQUFMS2V5UG56NUprb3RkdHV2bVJETmh3?oc=5",
-            "pub_raw": "Wed, 26 Aug 2026 21:47:00 GMT",
-            "published": "2026-08-26T21:47:00",
-            "source": "Stock Titan",
-            "title": "Union Pacific-Norfolk Southern merger could unlock about $3.5B in annual savings - Stock Titan"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSVJrS1JNVHRocHA0Unp6WElCRTNrZkZIcDFfRFM0U0dGa01tNTl4d2NFVUdNSkVsUGdyMjU5QVNMOUQ1TC1QRTZkV2NndjhseEl0X01GS2YyeHZSWWpGeW9BWnZYT2JMeU1kejFLTnpyaGhrdEdTVlhtdThnZmtuYTF4alQwZno0WHZKS0MwaTlLTi1nYzl2NFB6NFRpZzhBdHBiOC0wY0xuOWVSaC1lUXpNdUhnWGhRSEhBX0JCbzZZdVMyTjRxcG9keGVxVGFjMm1wOWFn?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 20:44:00 GMT",
-            "published": "2026-08-27T20:44:00",
-            "source": "MarketWatch",
-            "title": "Norfolk Southern Corp. stock underperforms Thursday when compared to competitors - MarketWatch"
+            "title": "Norfolk Southern stock holds near a $73.99 billion value - AD HOC NEWS"
           }
         ],
         "PLD": [
           {
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZEwyQVpFRDhQWkREbVFpRXA1ZzRDRVhBWXpabWVkTDQ5aUVVQlF5WUJkY2N0ZjQ4SzIxdDNOSXdlck1BQ0JmX3N0LTNhWUNsaU1xVk1pWC1xTW5udGZPMm9hM0ZYdVBubWNUMlI2VUpLM3BkcXozTl9FMUMxVURsWmFROVR0cEFOckwyXzhzeFM1UmhXR19DU0RLYUV6T3ZodG00NzR0YTd4RktJMzFOdFFsckRhZnJtWW1mS08yYXhKLXpxZHc?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 10:33:33 GMT",
-            "published": "2026-08-31T10:33:33",
-            "source": "MarketBeat",
-            "title": "Moore Capital Management LP Increases Position in Prologis, Inc. $PLD - MarketBeat"
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc00ya01RSFhoNE5ObnIyRmF2RHBlV3cyY1lWS0x0UlRycHVveFctZ3U4emZCdDlOMi1Id04tRWhmQllTQTBLT3h1Ql82ZHVLMnVqTnE5Y3ctNEpZRWRlVUlVZm9YOVBVV0lmUzUzbERsQ1NaTWV4Y01JQlFuVUZFMTI1a09qQlk0MmFqWHBTdEpTTjFGS1F2ZWt6TjN4QWhkSjNXZGczSkp2aG8?oc=5",
+            "pub_raw": "Mon, 07 Sep 2026 07:08:58 GMT",
+            "published": "2026-09-07T07:08:58",
+            "source": "marketbeat.com",
+            "title": "Amundi Sells 228,307 Shares of Prologis, Inc. $PLD - marketbeat.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNczY4TXF4TWw3NTVwMVpyQTBzZ1BFeDROODJYNUZMN2FrMHJRUTR3azJ6MzFpYm1kLURXS1A1Mm1tUW5TX3ZfQ2FrTHY1cHNMOUpITGVsN1FPTXFsc3o5Y3IxWkI3Sm5xVDRPNU5tekJpaURRcjRsYTZuc3dCRkNDellyUTBFbWdGeV9ObDJXN1JuRFdOLW1BZGFB?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 03:10:00 GMT",
-            "published": "2026-08-29T03:10:00",
+            "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb3dOS0N4QnZnVmJFN3gxYkIxcTVDSVlnc3RwRHBodVZmNG1xVTI0RVJKb1owUUp4UXZobk5rcE9ZU1pnMWhWVXNiOGVuM2tuLUhOX0VUNm1tQWdkWDFrQnFpUDB3Mkd0RjdsdGpTemstLTZNZEhzYU1YX1Azc3BfVTRXcHZaTkFaTlN4SU5ZTFM5ZGRQUk5CLXlKajRMX2FPOWwzT2VZZVJ1QjJjRHNzY3BjYjdrXzhjZU53cVZzV2FmVzNEYU84dHlicW8zM2tVTVJ1bjZ0YjZxSG9p?oc=5",
+            "pub_raw": "Mon, 07 Sep 2026 13:34:20 GMT",
+            "published": "2026-09-07T13:34:20",
+            "source": "TradingView",
+            "title": "REG - Northern Trust Corp SEGRO PLC Prologis, Inc. - Form 8.3- Prologis, Inc. - TradingView"
+          },
+          {
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWR2YzZoTklKVUtVNmYwU2g3Y1FLMnJwZ2IzSnhhaF9wMWpjNGloN052cFZSQU5va3ZWTktLTkZ1SnJxYk01M2JINzUtbjA4ajRPRmpxc2h2c0k1cG9mUTRtd3M3SnpvaWVhaDVFSWk1aHZKNHE4UTAyYkFzMS04ckk3R1R2OEt5UXo0MkcyVVZ3LXFwSU9EdENUdXgtb00?oc=5",
+            "pub_raw": "Wed, 02 Sep 2026 22:00:01 GMT",
+            "published": "2026-09-02T22:00:01",
             "source": "Yahoo Finance",
-            "title": "Is Prologis (PLD) Above Fair Value After A 28% Gain? - Yahoo Finance"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWnotd3hmOGNwcWlxOGdSSWQ5NG04U0xwYndVcHNVd2k3OHE0ODgtVEpIeGNxY0hvMXNrV2EzZjNhTGg3c1B3eUhlQjJSRlBzSElqTHhXeTdTVW92SjRabVFvMFlGd0I5MXNITndoUkpyOUdFWDhVaVowV3lIcXlSY1BQUGxaQXZKc25uMXAzR3dNeDBxSkQ0bFhTS1ZEdFJvQXJpdmkzQUtCdm11Q0k5U25FeHBvZnB0TnNvMWlQbnRhcmtqTnfSAcsBQVVfeXFMTTVEaVdZNGZsZmtvbmNtcWZXTkRqclpBYUJFenljcU9zeldjUjRDTW5PYXRlTnNCc3BJNDJUaU1zSlZBQW5KVWhxY2lEV3MzRERtSWx3eUZUd3d2U3hzbnRhNllMZ3VrT1BQSVMwcWRfWWN1a1VSY3Rac1UtbTNEWmpxT2VjNXp3Q1l2UjRJaE5wWUVzS0tkWmpzVUFKcnhxQ29JZXhaTmlqeUt2cWRrYlF2RDl6alUxd01LZGdQdTZyY0RzaER4LURXV1E?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 11:24:23 GMT",
-            "published": "2026-08-27T11:24:23",
-            "source": "simplywall.st",
-            "title": "Prologis (PLD) Stock May Already Price In Its Cash Flow Strength - simplywall.st"
+            "title": "Prologis (PLD) Stock Declines While Market Improves: Some Information for Investors - Yahoo Finance"
           }
         ],
         "SPY": [
           {
-            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMmtBZ1ItaFhXbnVvRE5nZDh2emp3OXVESXA1TmNqa2tGV1R2eE40U1RReHR6SVQ2X0w1SGM1aG9kaWdPRGxka1ZuM01QcmYteDg3YlgyR2ZPZDloMTEzbGx0cFoyQW9VSTk2RUE1NEZKQ2tORWM4WENrV0N6M3JIb3FZYjZ4OXpNbU10SC1GdUxLQQ?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 16:15:00 GMT",
-            "published": "2026-08-31T16:15:00",
-            "source": "Quiver Quantitative",
-            "title": "SPY is down 0.5% today, on PCG stock price movement - Quiver Quantitative"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd1R4akQyNGpiQ3V1Tm9qTTdwdG1YU2FvTzQ2LXFjLTcxMDBlbDg4UnlVcEhmcEItbHBhMkFaaS1vRXdaZFBQempLM0c5YzVoZmhQdUxrMG5yTTRrN2EwQVNPWFd2SFo0NVhXd0taaGtCSkVEODE1N2dUYklVU3JxbHZVRDVKN2pabVMwMDB6SncyTTU2Sm9BQw?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 12:45:00 GMT",
-            "published": "2026-08-31T12:45:00",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR182NDg2bWptQkZWU3JQRGJGRThwVk4tZ21QNmw5WGd6c1NDTXpUOFBQb3JRM3RjRk1IaXluTzEwRm1uSGxEZUE3OFRUYkkydFpReDQ3Y0ZhMXJIaTMtcXVicVRxZ2xwT1FyQ2syU0l5ZWFVeC04M0dZcjNOMTQ2eFFyMUtuZUw1Z1N0a1AySGYxS3BzZ1hTaA?oc=5",
+            "pub_raw": "Mon, 07 Sep 2026 00:05:00 GMT",
+            "published": "2026-09-07T00:05:00",
             "source": "The Motley Fool",
-            "title": "How Much Can You Earn With the Vanguard S&P 500 ETF (VOO) If You Invest $100 per Month Starting Today? Here's What History Suggests. - The Motley Fool"
+            "title": "What a $10,000 Investment in the Vanguard S&P 500 ETF (VOO) a Decade Ago Is Worth Today - The Motley Fool"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQT2pyb2o5OTZqb29hSkdoaTlBRXZBX1kwV3V0dk53ZHZLVWw4a1dPY0Nfbk5OSU5DM2tlNlVlcVJSQVZPbk5NWHdoSkVDalNnTzQwY3pKdXZFYmQ4NU5aNG1pam9mTzVlWm5BWm1JZ0REeENSd1ZCdnZHYkRfQnBjdWZMUmVqLUEyWEg5M1VBQkRKOXl2Rlh2TFVpUHhIaTdPZDdNU2NNZE81akNEczhGM1lyWEV1MlNXYTFhdEVHVDlrNXVZblphaERlRDFac2tQMm1SV1UwTEZFTHRya3JJbnA4UzloY05fNW1HZDFJVmx0R3JKQzFZMElrUDQ2T3RzaEcybEVDQzY3Z2ZtNWU0dFFKZDU?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 18:01:13 GMT",
-            "published": "2026-08-31T18:01:13",
-            "source": "The Globe and Mail",
-            "title": "If a Stock Market Correction Is Coming, History Says This ETF Has Always Protected Long-Term Investors - The Globe and Mail"
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZGxKTGpCQWNrMlk2Ri1RYkdsVnFYczAzRmc5R2Zpc0xRVlhxWEZWaU1ZckhLR25kLXViU1hwY19pU3NuQUZfSEFTaEpkODk4aFFfOWZza3VJOWp4RGNKRWhHMDBQelpxQTF0eEpRLXBxR0lUX1JnVXhJQXAwUXVRTWFlVFd1UV80YW9pZGVqbDhsSFE?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 16:15:00 GMT",
+            "published": "2026-09-04T16:15:00",
+            "source": "Quiver Quantitative",
+            "title": "SPY is down 0.4% today, on TSLA stock price movement - Quiver Quantitative"
+          },
+          {
+            "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQX05SN2ZjVjJjTTd0WW9oNU1JN1ExWERLSUVBUEVPUEVUUHlnRGpLYllJWEhpZVFsWkk1QkVoUjBham1vUTJ2S0VlODBQaGc1aW9haHgxWVRoV2w3MlB1cWRzWFZTTW5yREE2a2lIVWNkdlA1RGRJeXpyNnFCZGkwa3ZZeDZJTDBCVEJfem1DSV9EQlRBUHFHLVFINmkzUlhxdHM4ZmdzSGplNm9kTVlDWEN3bGhYUmZIYTJfNWRXaHI5RWhLT2plV0QydHBfTlVkc2VZbTNCUW5aWEd2WGFYc01NRQ?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 15:48:00 GMT",
+            "published": "2026-09-04T15:48:00",
+            "source": "247wallst.com",
+            "title": "GPIX Is Paying 8% and Trailing SPY by Just Half a Point. Has Goldman Finally Fixed the Covered-Call ETF? - 247wallst.com"
           }
         ],
         "TLT": [
           {
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmbzZlanB1TFlNemg2bThwNXhRSjZLd3ZEeWRWNnZFd2dzUTBZUld1QnQtX3F2YzRKTTM2cE1HMXZVMW92Zkc5cTJZYkh1dXM?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 15:11:45 GMT",
-            "published": "2026-08-29T15:11:45",
-            "source": "Stocktwits",
-            "title": "iShares 20+ Year Treasury Bond ETF (TLT) News, Articles, Events & Latest Updates - Stocktwits"
+            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZUYzUTlTZVRQODZGdkhJa1FOQ25GVlAyMXNYd2Y5bjNxcDdzY2Zyb080Y2dzY0tPekUxT2gxQmx1M3dfdTdTZTZqUnRyY1cxNG0tVExBbjZxYzFsa0V3Vjl0dFB0MGJlRDlSM29QUk43ZG93Q0V3Q0Zja2FESnc0YVpST2owZlROa0xzYWdTUzVhQdIBlwFBVV95cUxNeXRlVjFTcTB6TVVVY3g4VGlaU1R5MG9lQkVWV3kzQzIxaGxOOGJkdi1QU1A4RUQ1Um94UjBiWTJvaWI3Zkl2UUIzdmJVTllSZE8zVVRuVFFicmNjWVh4UFNZV25PSjhvei02QnBzcEF0NUt1bkNvN3VtdWRSUlJQYThBWFNLSl9iVEpIaTdsSUEyelhiNUM0?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 19:22:00 GMT",
+            "published": "2026-09-03T19:22:00",
+            "source": "Cantech Letter",
+            "title": "Is Theralase Technologies (TSXV:TLT) a buy right now? - Cantech Letter"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tdUpOS0JHQXpfOFVFb0hUd2dodGhXR29CU3lCSU9xRU5nTENmZ3cxLTdYcDlDS0t0d1g1V3JwcHFxcGxBZ0tSWnB0MmJlQVNTT181TGlIZnR2X1JOV29ueXR2M0lVVmtncGtpa0V6MEhPTlhhTXBLcg?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 07:00:00 GMT",
-            "published": "2026-08-27T07:00:00",
-            "source": "MarketBeat",
-            "title": "iShares 20+ Year Treasury Bond ETF (TLT) Institutional Ownership 2026 $TLT - MarketBeat"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObkItUzRMRWluS0Q1ejA5SGEtd0drRU9jaGR0Z19FbzlsY3RQUEF3Q0NOM25icERNeGwyM3NpN0Z5dUpUN0doN2NRSlVJX0I4eWI4eFZKS2NlQkk0QnBYWU5IaXVROVlUelp1RXZyMUYwcEN3MmwyOTFGQm9qTzFTQU1WTnBObDVUWHhrRS1uMGFmRWpPM3lNTVNFY1l6YjJralpCZFRmYzdxOEdjR2R5aGQtcnFOeW9MVGxDNGhoRnBCNnA2U0pCazFFX013Zw?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 19:06:01 GMT",
-            "published": "2026-08-29T19:06:01",
-            "source": "news.stocktradersdaily.com",
-            "title": "Discipline and Rules-Based Execution in TLT Response - news.stocktradersdaily.com"
+            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwNXpsUV9tYUM2T0JadXl1d3ZROU5XdDZSYTZISkYwRXRIMXZSTzNQelBCY1JidkZLN0lzOG93OHloVHQwdkdHdHFvRTZkeVBQUFJtR09YYw?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 07:00:00 GMT",
+            "published": "2026-09-04T07:00:00",
+            "source": "TechGraph",
+            "title": "iShares 20+ Year Treasury Stock Price Today (TLT), Chart, News & Market Cap - TechGraph"
           }
         ],
         "UNP": [
           {
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjlET0d5N0w5NG9HbHJhemdlbi1mSEh3SUJkM20zdndvdm9feHoySjJkZzdnQ1VMMkFPdHZrY2p6eUZraUs3dFBIV2FrRDBFUGRjVjBvTjZWV1VkZlc5OW1RYkRPMFNSTklHRzdrY3hKYlpJMEhtaFQwdF9LTVJMeUZDOUhfN3dZOWlUYldoN1BWX1VMS2xGaldiTmJIcjdvc2V6Wlh4dHZ6UVFNOFRldw?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 14:02:35 GMT",
-            "published": "2026-08-27T14:02:35",
-            "source": "TIKR.com",
-            "title": "Union Pacific Stock Cleared a Regulatory Hurdle. Here\u2019s What It Means For The UNP Stock. - TIKR.com"
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNl8tUW1Cc1N2YzBlVUJ6ZzYtUDFRd0lHSnZIak8xYkdVcHZjNmVsYmZTYnlKR1AyWHlvdXZnakNfV2lMbFEtdXpucTRuaExlXzRkcGx1WmtJRnE5VHppd0ZacEV5ZVQ0eG9kTllRYURPYTZzUXc2bUFib0FhTkNOVkp4ekFKT3ZYSmNkTmx3NW9kWHRpNGg3OGVB?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 01:05:00 GMT",
+            "published": "2026-09-03T01:05:00",
+            "source": "Yahoo Finance",
+            "title": "Union Pacific (UNP) Stock Looks About Fairly Valued Today - Yahoo Finance"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOWFuSVNVWTVGRzV3TktzZHhBUUx4QllTbGlDU3JxY1laYk5pQ2F1YUR6dEExMThnUHdfS2xYWUh0aGZoTjVfQnZzV0ZlN0VkVk40Rk10VWxubzZrNmdQMWw1R1hVNjBnXzVKMVNtenN2dWtIaV90NjI0YlJPVE1valM4WHN3X3E0LVVZS3lBdDRZNUVXcUtod3BGeW1XS2thYjNTLWMyUDkzY29HRUxiMjRxTUIzOXNPNmR6NTNZVGQ?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 15:46:03 GMT",
-            "published": "2026-08-27T15:46:03",
-            "source": "Benzinga",
-            "title": "If You Invested $100 In Union Pacific Stock 20 Years Ago, You Would Have This Much Today - Benzinga"
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNczZvc0x3dmxDdld3aDhSQnZFSDJqWno2MTJicDRHbFFxejVvMFpwZUREcUl6WkpfZU1NcGhIbEdBU2tWVjZSbFFyOHdiWEJiOXlOdHQ1VkRMUllvX1N0TXIyM1M5OHFVLWMxSEF2UXdzVG9fZE9RRUEwQk8xODNaV1dXSFhEZksxQTVjanBiVUdlVEJIWGRz?oc=5",
+            "pub_raw": "Tue, 01 Sep 2026 15:37:56 GMT",
+            "published": "2026-09-01T15:37:56",
+            "source": "Barchart.com",
+            "title": "Is Union Pacific Stock Outperforming the S&P 500? - Barchart.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDRlUmNtZmlLakJWX1plY1pPTDJMR1Byc1dCN0lPa3JzZ0xEVGh5RloyMzNXMkdGMjJnMXJkanhULVVHOWhnbVFxazZscGVrMTlkNlc1anlUQkpJTzV6VjNHWGhvRl9Dekp3SkJoUkdqY3VyM1lhQ21DRkZzTWdTb1dDc0JmZkRZSzBCMDhpMFFJM1VRb2hWdGVRMUJnck9IV01FM091b3A2TnhVMkhfSVB5QkNpTUlaQ1Z3?oc=5",
-            "pub_raw": "Thu, 27 Aug 2026 20:30:00 GMT",
-            "published": "2026-08-27T20:30:00",
-            "source": "Stock Titan",
-            "title": "Union Pacific\u2019s CEO and CFO will join an online chat hosted by Bernstein Sept. 1 - Stock Titan"
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeXJIbVlUb1YyNnFNUm5HNm0zV1A1REJxU01HeEZ2VEtManRsUlhydGFBMk5VLTdpVlZFM0JBQS1NQkJHUDRmLTd3NWJGMWJFUUNTRlFZRzZuTGRYNWFreWdkMndqTmp0ZzNCajR0X1FHelpmQzBhdkZJNFZYMVZLbGEyTXBaWVhoZHpScXlDaVBkdkN0aUJVVFRtdmNYUk1aRFdfbm5NNmFMSnJJRU5NRXlvU1ZRUmtZUmZNSEkwejRfRWxHZUg5V1R1MjNVSXfSAdQBQVVfeXFMUGczcTRiQmc2dWZkNWFvQXBpU0M1ajRjc2pSSHR5Q0VhdmxuYjhEdXppVlkwS0JCYWVELWFieTJpdnZWX3l3MkQweDVBY1VqdHpDM0lDdkJ4dkZvbVBGSmMtNGRTcFV5V3hMbTludUdDc2U4MnJiTUk5NVlGM3EtWHJBa2lwNVd4czczNzdqSi1FVVpRaXRuVUtzaHNJMzRKZy12OXJqcVJUcTdhTGdjVm9ONVE2anZ2ckNIN2IxZEI2QXRpOHBhcjBmV3ZDZnpYRWxGSHc?oc=5",
+            "pub_raw": "Fri, 04 Sep 2026 12:34:16 GMT",
+            "published": "2026-09-04T12:34:16",
+            "source": "simplywall.st",
+            "title": "Union Pacific (UNP), Why Is The Railroad Back In The Spotlight? - simplywall.st"
           }
         ],
         "VRT": [
           {
-            "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdFBKUTJMcUZmaHFaam5GYW1HNWc5S2wxUVlOMkR1WUh4YUhLd0NRMU00Zmc4RmdVOE5Kc1ZNZ2x4MU5la2NYbVM1ZmkwM2w2bElJTXNxeFRsZ2l2ZVdrMVNhTlgwSl9YVlJzS2JKMl9WNVZOWGEySndfTkN0V3JCN2k5c0theThzekxiY3NsRDZ5V0R3NDNuWWVwOURzR0hZYlBiQzFGcVZVNW83bmNNbGp6cmotQ09BN0ZvX0lVaVlXYm5fS2s4QmNJd2QzZUZLQnFDMkFMNHpXWHUtZmFibVJzXy1vMHNmeFVtdWhxN1k0VGhu?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 13:48:00 GMT",
-            "published": "2026-08-31T13:48:00",
-            "source": "24/7 Wall St.",
-            "title": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown? - 24/7 Wall St."
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ0x0Vy00aE1nSVA4eDM1bElFRHFyYURJWWV3MTFxYkpjZzMtaGFudEE2M1U4MnJZRjhlSktyM3BWazNRWjQzUkFRLTQ1b3plSUY1Z2tOLUxVSFJtc3BETDVxZFd6NXRKTUd4WXQwYUpEMjkxZlNlbTFiVG9tQzJPS3I0alBWenFFRHkzSHB3RXpQRjhUZXBNLWNTUTJqTk0?oc=5",
+            "pub_raw": "Mon, 07 Sep 2026 13:00:05 GMT",
+            "published": "2026-09-07T13:00:05",
+            "source": "Yahoo Finance",
+            "title": "Vertiv Holdings Co. (VRT) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance"
           },
           {
             "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3k0ZmxORFAxSy0zSDB0S0xqeURpUTBGSzNlNHFXVTdxZEk3SU43QVpQN2hPemFRdldFeWdrU3daS0h6YlItS1Yxb2lxdldRMmViVW9wQjgxSzBwU21ReF80aVdZRmJRSlF0VzNMSzhLMVJmMkczTGI1Ulh4Mk5IcDBpX1VmWHJneXhCcFN5RF9acEFTV2hqN2NnNll0MHlrYTRoWFY3akkwaV84bDJYQlJraFZIODZLQ2dQQWFkWnJRdGR2VzJpaW92WWRPMUs1bE1Cdk9B?oc=5",
-            "pub_raw": "Sun, 30 Aug 2026 03:50:39 GMT",
-            "published": "2026-08-30T03:50:39",
+            "pub_raw": "Sat, 05 Sep 2026 21:29:30 GMT",
+            "published": "2026-09-05T21:29:30",
             "source": "Stocktwits",
             "title": "VRT Stock Is Rising Today \u2013 What\u2019s The Deal With Strategic Thermal Labs About? - Stocktwits"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE43QS1iUXFncFczNUhGMlpPTjdsRlB4Yk9icXJRYnpPQUw4QzRab0tpZDBZRllTbFdBdEUxczdjeE5wdzh0YTJwR0tfUUNPd3dyX0JfSnFRblJKTEpqbWIwTzExM0xHR1llTDd1Rzc5RXRpVUwtbnVqbA?oc=5",
-            "pub_raw": "Fri, 28 Aug 2026 16:40:10 GMT",
-            "published": "2026-08-28T16:40:10",
-            "source": "qz.com",
-            "title": "Vertiv (VRT) is an Incredible Growth Stock: 3 Reasons Why - qz.com"
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSUVnLXVzX2NUeVY4ZW51YXdIVk1wYmhCRWRWRGhLcGUxNnpGTmcwcVpzbGRFLWY2a0ZoaDlMby16V0FVOUVDOUpGTWFYeGFEZDZjeGdCLWxWTk9ka2VBdWJoSnAxSnlSdjUzRXc0eXVDWngwTzlmcks2cGtzWHNpMnlCdG9oWlk?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 15:35:00 GMT",
+            "published": "2026-09-03T15:35:00",
+            "source": "Quiver Quantitative",
+            "title": "Why Vertiv Holdings (VRT) Stock Is Up Today - Quiver Quantitative"
           }
         ],
         "XLI": [
           {
-            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxObGVJZVdjTmhFb0JiVFZIQ1AwdHBuRkh6UmhGT2F1RjBQQUh5YzZwamhPSTdSNDF6cWN6UHdURFdEa2gxSl9PbjJLc2Z5ckc5UjRTWVB3Q3NxQlRQSWhSZHY5eGtYZE4td3BkR2gxZHYyMU9oMHR0NG5LTGU4RmlvUFRIVDBGMjZkeTlRUm8zSjZaTXpheW5NRVR5aHJSQUNCTU9kaHFrQlBrNHk2eG1MZ0pvV1lDeWNDNngzMms4Qy1HOXQyV0FaYUFzcl9zNF9nWUdZZ2hMYmhZdXpXY1R2SWR2UVZXZjlOXzJmUFotUjh1UmlLLTFCeVFTZDU5bF8yLXpzak5XWTh4S0hXZS0yNWFIU3Z2MHhmTnRYRUZR?oc=5",
-            "pub_raw": "Wed, 26 Aug 2026 17:24:12 GMT",
-            "published": "2026-08-26T17:24:12",
+            "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPZmFRWF9hZE1XMWJ4dkI2MlBDS2NNWGtpajk0Zjhqd0RsdHVjQXBRdkZ1N3ByOXJXcWdhRW01OGU1NW1IVktpendtSmpaOC1iTk5KOXV5dlZNbzZtMFJ5ZG5DY2Q3YUpDYzNlUDdTcjR1eG5aR1Mwa2FycXpOZlNFWmlYMkk4X2hQTTlmQ2w1Rl9UZHA5ekxCUmNmUzFKQXc2VjlqWUpqR1lRTWwzanJWU1BvaG9GemI3V0t4eEJpOUxpOEsxZWFDcFQ0QUVQRkF1cUZCSHg2dVZhOTktUG4zSFFaVENXMzJBcVFNVTMyRVVHSmZqaWRoZS00eWNYbmJoMk5ObGZ0d2hMZ0tSeDg2a1dXZl8teVNJNVlQY253?oc=5",
+            "pub_raw": "Thu, 03 Sep 2026 07:06:29 GMT",
+            "published": "2026-09-03T07:06:29",
             "source": "ETF Database",
             "title": "State Street Industrial Select Sector SPDR ETF - ETF Database"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmh1eTZIUmc5dlB3QjhUMmE0N2FlbmhHOTQzQkppRHNzZjBzVTFUNGVhbTVFZElNUTQwZXdPLS1tWElXNDB4bVlFQXZkTFhLRFQwb1VNWk5STWNBenhPd095a3RReHMzZnMtMDZ2cExDQVJEbk1VaEh6VkdZQnkxbm84NFlMdFlaVEhDYU1aaXlab3lTSnhvVkRzSDlMLUN2ZU1WWDk4eFVaaElQc1VVT0E0dk0tOGtjNEVqSEllbU9FeVg3dm9sdWpPOUJZZw?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 21:00:01 GMT",
-            "published": "2026-08-29T21:00:01",
-            "source": "news.stocktradersdaily.com",
-            "title": "Why (XLI) Price Action Is Critical for Tactical Trading - news.stocktradersdaily.com"
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNkJnTHZWYW90cXJBdVhVZW5Dckp5SDhMN3lyeU16WUNoa3psSjNhaFRVUlljN2JjSUFDdC1TcGk4cU1yV2ticTJ2dmU0V1BpdktkX19yeERaYjAxWVhlUmZJQmc5clZVRzlRcEd6ZW54NEluV1AxUm1vaG53aEdhTDNMZWs1Mk5nNnVzMVRZZVpVQVFZQTA1aXVkZEh1YkF0dGYxT3B3?oc=5",
+            "pub_raw": "Tue, 01 Sep 2026 17:39:17 GMT",
+            "published": "2026-09-01T17:39:17",
+            "source": "seekingalpha.com",
+            "title": "These eight industrials stocks posted the biggest CapEx increases (XLI:NYSEARCA) - seekingalpha.com"
           },
           {
-            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVmhpZlBydWhzUUZlOThfREU5RW9sV1FjME4tTWpVY2MtaVA5SUg0RDE1cHNnb3FETDNzNmVFOWQtVllYbWlpc2U5OVNDaWhCNkswdTVFU290NzBKWS1BMlhDc1BlV2pOUGpaa180RXk0X3E2U0kzbmdBV0c2OWpNQjRMU1pEak10bW5CQ2R5akpqOHpLUzBubngyUmQ3UDVhMlJZYnlacnRLZkdYelNLT1NOYzI?oc=5",
-            "pub_raw": "Tue, 25 Aug 2026 16:37:31 GMT",
-            "published": "2026-08-25T16:37:31",
-            "source": "TipRanks",
-            "title": "How Trump\u2019s Pennsylvania Manufacturing Push Could Move Industrial Stocks (XLI) - TipRanks"
-          }
-        ],
-        "XRT": [
-          {
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNFItUnNUMll5b3hoOWU5V3JCSEFObER0cDAzbWYtTnVDS2hIWWFqSzI1LUVVd1F6ZFBRb3Z5Z0lTLVlfUVhxX2F0Q3BLY1BwaVhldDlDV25UZU94bGNCZzJEaHNTd1RDb3RXSkg1dlNzekxMUG1HZTllS29BSE5RY1QxQXhnXzlLT3A3XzM5VDJzUGNzZnZVRkFmd05hRlNJMWxSZ3VmNGZOTmVzemczeDJXa194d2pwVTNCMHpyXzBfdER6VVFmZW5uZw?oc=5",
-            "pub_raw": "Sat, 29 Aug 2026 01:10:02 GMT",
-            "published": "2026-08-29T01:10:02",
-            "source": "news.stocktradersdaily.com",
-            "title": "(XRT) Price Dynamics and Execution-Aware Positioning - news.stocktradersdaily.com"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPV2hETzlBcUFtS1dPLVpVVHB3TE1PMmp6TWFjTlYtSmNOU0xmTG9XY3FYYkk5aEd4VHVlRmZLbUFIRjBpQ294a2Rjb2M3YUxfNVJfWmQzZ2N6TnZLSUFEWXQyQ1ZmUm42MVhFX3NLdURfZURRdmc?oc=5",
-            "pub_raw": "Sun, 30 Aug 2026 10:42:46 GMT",
-            "published": "2026-08-30T10:42:46",
-            "source": "TradingView",
-            "title": "Live stock, index, futures, Forex and Bitcoin charts on TradingView - TradingView"
-          },
-          {
-            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRkxRSmFuMzN4dFVURXdnMVR5N2dYb1RYYzZ1THNabUJacFBvMUhaRGctM190cHo1d0YxYVk5UndvaVdpaDJXNjlzY3J0LXpwWlp4V1d3ZGJYV3Fwd3lXVnZfRklRZG1CR3FFcElBNExPSTkxQjl5UFVMbXlDb0tiSk9XT1Fwb0RPU25CUWhOQ0lpQlhFMVh0VkVQUmlCUm5mSEs1dXhXNi1OLTdudThiSGNKS3lSVVBlcFpF?oc=5",
-            "pub_raw": "Mon, 31 Aug 2026 16:35:00 GMT",
-            "published": "2026-08-31T16:35:00",
-            "source": "24/7 Wall St.",
-            "title": "Ulta Beauty Climbs 4%, e.l.f. Beauty Rises 5% as Post-Earnings Selloff Reverses - 24/7 Wall St."
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44N255dElsQUx6NDdzUE9XVHQyUVNQdVdxbU5ZblhWNWZkU0Q5bmV3TUJ5dXJIdHduRzB2T1VrZFJ5NEhBcTRzek1mMHFhRnlXcFE?oc=5",
+            "pub_raw": "Sat, 05 Sep 2026 11:11:25 GMT",
+            "published": "2026-09-05T11:11:25",
+            "source": "Kalkine",
+            "title": "Industrial Select Sector SPDR\u00ae Fund (NYSE: XLI) Share Price, XLI Stock News, XLI Share Price & Updates - Kalkine"
           }
         ]
       }
@@ -384,14 +354,13 @@
     },
     "stocks": {
       "DX-Y.NYB": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-07",
         "high_52w": 101.61,
         "label": "US Dollar Index",
-        "last": 99.42,
+        "last": 98.9,
         "low_52w": 96.22,
-        "range_pct": 59.3,
+        "range_pct": 49.7,
         "sparkline": [
-          100.85,
           101.36,
           100.86,
           100.97,
@@ -402,19 +371,20 @@
           99.67,
           98.8,
           99.7,
-          99.42
+          99.16,
+          98.9
         ],
         "ticker": "DX-Y.NYB",
-        "weekly_pct": 0.42,
-        "ytd_pct": 1.01
+        "weekly_pct": -0.53,
+        "ytd_pct": 0.49
       },
       "EGP": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 223.38,
         "label": "EastGroup Properties",
-        "last": 198.88,
+        "last": 198.62,
         "low_52w": 158.05,
-        "range_pct": 62.5,
+        "range_pct": 62.1,
         "sparkline": [
           198.47,
           205.74,
@@ -427,19 +397,19 @@
           203.06,
           201.0,
           200.0,
-          198.88
+          198.62
         ],
         "ticker": "EGP",
-        "weekly_pct": -1.72,
-        "ytd_pct": 12.33
+        "weekly_pct": -0.69,
+        "ytd_pct": 12.19
       },
       "FR": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 68.86,
         "label": "First Industrial Realty",
-        "last": 61.74,
+        "last": 61.85,
         "low_52w": 49.05,
-        "range_pct": 64.0,
+        "range_pct": 64.6,
         "sparkline": [
           61.31,
           63.08,
@@ -452,19 +422,19 @@
           62.87,
           62.93,
           61.94,
-          61.74
+          61.85
         ],
         "ticker": "FR",
-        "weekly_pct": -2.67,
-        "ytd_pct": 8.42
+        "weekly_pct": -0.15,
+        "ytd_pct": 8.62
       },
       "GXO": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 65.59,
         "label": "GXO Logistics",
-        "last": 47.62,
+        "last": 48.32,
         "low_52w": 45.37,
-        "range_pct": 11.1,
+        "range_pct": 14.6,
         "sparkline": [
           48.64,
           50.19,
@@ -477,19 +447,19 @@
           48.58,
           45.72,
           47.6,
-          47.62
+          48.32
         ],
         "ticker": "GXO",
-        "weekly_pct": 1.35,
-        "ytd_pct": -12.31
+        "weekly_pct": 1.51,
+        "ytd_pct": -11.01
       },
       "MANH": {
-        "asof": "2026-08-31",
-        "high_52w": 224.43,
+        "asof": "2026-09-04",
+        "high_52w": 223.76,
         "label": "Manhattan Associates",
-        "last": 224.43,
+        "last": 213.77,
         "low_52w": 120.88,
-        "range_pct": 100.0,
+        "range_pct": 90.3,
         "sparkline": [
           132.28,
           137.85,
@@ -502,44 +472,44 @@
           197.39,
           214.56,
           223.28,
-          224.43
+          213.77
         ],
         "ticker": "MANH",
-        "weekly_pct": 5.28,
-        "ytd_pct": 34.17
+        "weekly_pct": -4.26,
+        "ytd_pct": 27.79
       },
       "MLI": {
-        "asof": "2026-08-31",
-        "high_52w": 70.23,
+        "asof": "2026-09-04",
+        "high_52w": 70.03,
         "label": "Mueller Industries",
-        "last": 62.65,
-        "low_52w": 47.16,
-        "range_pct": 67.1,
+        "last": 63.74,
+        "low_52w": 47.2,
+        "range_pct": 72.4,
         "sparkline": [
-          68.69,
-          64.1,
-          56.5,
-          56.99,
-          59.13,
-          63.91,
-          66.41,
-          68.85,
-          65.9,
-          63.22,
-          62.8,
-          62.65
+          68.5,
+          63.92,
+          56.34,
+          56.83,
+          58.97,
+          63.73,
+          66.23,
+          68.66,
+          65.72,
+          63.04,
+          62.63,
+          63.74
         ],
         "ticker": "MLI",
-        "weekly_pct": -1.26,
-        "ytd_pct": 7.89
+        "weekly_pct": 1.78,
+        "ytd_pct": 10.08
       },
       "NSC": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 352.98,
         "label": "Norfolk Southern",
-        "last": 343.93,
+        "last": 329.46,
         "low_52w": 267.64,
-        "range_pct": 89.4,
+        "range_pct": 72.4,
         "sparkline": [
           298.9,
           311.58,
@@ -552,19 +522,19 @@
           334.41,
           350.72,
           348.68,
-          343.93
+          329.46
         ],
         "ticker": "NSC",
-        "weekly_pct": -2.56,
-        "ytd_pct": 21.02
+        "weekly_pct": -5.51,
+        "ytd_pct": 15.93
       },
       "PLD": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 150.06,
         "label": "Prologis",
-        "last": 139.82,
-        "low_52w": 107.47,
-        "range_pct": 75.9,
+        "last": 137.34,
+        "low_52w": 107.5,
+        "range_pct": 70.1,
         "sparkline": [
           140.54,
           139.97,
@@ -577,19 +547,19 @@
           141.03,
           141.8,
           140.7,
-          139.82
+          137.34
         ],
         "ticker": "PLD",
-        "weekly_pct": -2.47,
-        "ytd_pct": 10.01
+        "weekly_pct": -2.39,
+        "ytd_pct": 8.06
       },
       "SPY": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 777.88,
         "label": "S&P 500 ETF",
-        "last": 765.81,
+        "last": 770.19,
         "low_52w": 630.35,
-        "range_pct": 91.8,
+        "range_pct": 94.8,
         "sparkline": [
           746.74,
           728.99,
@@ -602,69 +572,69 @@
           776.34,
           765.72,
           769.35,
-          765.81
+          770.19
         ],
         "ticker": "SPY",
-        "weekly_pct": 0.31,
-        "ytd_pct": 12.69
+        "weekly_pct": 0.11,
+        "ytd_pct": 13.34
       },
       "TLT": {
-        "asof": "2026-08-31",
-        "high_52w": 88.79,
+        "asof": "2026-09-04",
+        "high_52w": 88.45,
         "label": "20+ Year Treasury ETF",
-        "last": 82.4,
-        "low_52w": 81.35,
-        "range_pct": 14.1,
+        "last": 82.21,
+        "low_52w": 81.04,
+        "range_pct": 15.8,
         "sparkline": [
-          86.08,
-          86.69,
-          85.17,
-          84.13,
-          84.18,
-          82.92,
-          81.92,
-          82.76,
-          82.04,
-          82.05,
-          82.88,
-          82.4
+          85.76,
+          86.36,
+          84.84,
+          83.81,
+          83.86,
+          82.6,
+          81.61,
+          82.44,
+          81.73,
+          81.74,
+          82.56,
+          82.21
         ],
         "ticker": "TLT",
-        "weekly_pct": -0.2,
-        "ytd_pct": -2.79
+        "weekly_pct": -0.43,
+        "ytd_pct": -2.64
       },
       "UNP": {
-        "asof": "2026-08-31",
-        "high_52w": 310.62,
+        "asof": "2026-09-04",
+        "high_52w": 309.19,
         "label": "Union Pacific",
-        "last": 301.57,
-        "low_52w": 211.45,
-        "range_pct": 90.9,
+        "last": 289.62,
+        "low_52w": 210.47,
+        "range_pct": 80.2,
         "sparkline": [
-          256.88,
-          268.35,
-          282.25,
-          286.96,
-          301.75,
-          307.32,
-          292.13,
-          293.13,
-          293.68,
-          308.05,
-          307.41,
-          301.57
+          255.69,
+          267.11,
+          280.95,
+          285.63,
+          300.36,
+          305.9,
+          290.78,
+          291.78,
+          292.32,
+          306.63,
+          305.99,
+          289.62
         ],
         "ticker": "UNP",
-        "weekly_pct": -2.68,
-        "ytd_pct": 31.4
+        "weekly_pct": -5.35,
+        "ytd_pct": 26.78
       },
       "VRT": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 376.15,
         "label": "Vertiv Holdings",
-        "last": 258.62,
+        "last": 280.53,
         "low_52w": 121.69,
-        "range_pct": 53.8,
+        "range_pct": 62.4,
         "sparkline": [
           333.05,
           303.95,
@@ -677,19 +647,19 @@
           293.84,
           261.95,
           257.08,
-          258.62
+          280.53
         ],
         "ticker": "VRT",
-        "weekly_pct": 1.43,
-        "ytd_pct": 47.34
+        "weekly_pct": 9.12,
+        "ytd_pct": 59.82
       },
       "XLI": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 186.51,
         "label": "Industrial Select Sector SPDR",
-        "last": 175.26,
+        "last": 175.27,
         "low_52w": 146.55,
-        "range_pct": 71.8,
+        "range_pct": 71.9,
         "sparkline": [
           180.47,
           181.2,
@@ -702,19 +672,19 @@
           186.51,
           180.25,
           177.14,
-          175.26
+          175.27
         ],
         "ticker": "XLI",
-        "weekly_pct": -2.09,
-        "ytd_pct": 11.52
+        "weekly_pct": -1.06,
+        "ytd_pct": 11.53
       },
       "XRT": {
-        "asof": "2026-08-31",
+        "asof": "2026-09-04",
         "high_52w": 92.35,
         "label": "SPDR S&P Retail ETF",
-        "last": 86.22,
+        "last": 87.59,
         "low_52w": 76.75,
-        "range_pct": 60.7,
+        "range_pct": 69.5,
         "sparkline": [
           86.2,
           88.72,
@@ -727,13 +697,13 @@
           88.95,
           87.71,
           86.89,
-          86.22
+          87.59
         ],
         "ticker": "XRT",
-        "weekly_pct": -2.96,
-        "ytd_pct": 0.86
+        "weekly_pct": 0.81,
+        "ytd_pct": 2.46
       }
     }
   },
-  "generated_at": "2026-08-31 19:04 UTC"
+  "generated_at": "2026-09-07 17:40 UTC"
 }
